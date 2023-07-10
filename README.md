@@ -5,16 +5,16 @@ Delete these statements:
 Delete this link at the end of the specification process:  
 - [Roadmap to Specification](../../issues/1)
 
-# OfficialApplicationName
+# MycomButler - MB
 
 ### Location
-Location of the application in the logical structure of the application layer.
+The MycomButler servers as a proxy to an existing software outside the MW SDN application layer.
 
 ### Description
-Four to ten sentences describing the functionalities of the application.
+The MycomButler collects performance data and puts them into a format that is accepted by Mycom.
 
 ### Relevance
-Statement about the importance of the application.
+The MycomButler supports embedding the MW SDN into the existing software landscape.
 
 ### Resources
 - [Specification](./spec/)
