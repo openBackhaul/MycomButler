@@ -1,7 +1,3 @@
-Delete these statements:  
-- This repository is a template for specifying applications for the MW SDN application layer  
-- Fill in the Location, Description and Relevance below (check existing repositories as templates)
-
 Delete this link at the end of the specification process:  
 - [Roadmap to Specification](../../issues/1)
 
@@ -14,7 +10,7 @@ The MycomButler servers as a proxy to an existing software outside the MW SDN ap
 The MycomButler collects performance data and puts them into a format that is accepted by Mycom.
 
 ### Relevance
-The MycomButler supports embedding the MW SDN into the existing software landscape.
+The MycomButler supports embedding the MW SDN domain into the existing software landscape.
 
 ### Resources
 - [Specification](./spec/)
