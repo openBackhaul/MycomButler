@@ -1,0 +1,20 @@
+{
+  "timeframe": "15min",
+  "logical-termination-point": "LTP-MWS-2_LAN-7-SFP",
+  "layer-protocol": "LP-MWS-2_LAN-7-SFP",
+  "period-end-time": "2010-11-20T14:00:00+01:00",
+  "time-of-latest-change": "2010-11-20T14:00:00+01:00",
+  "history-data-id": "History Data ID not defined.",
+  "number-of-historical-performance-sets": 1,
+  "suspect-interval-flag": false,
+  "performance-data": {
+    "ses": -1,
+    "rx-level-min": 99,
+    "rx-level-avg": 99,
+    "rx-level-max": 99,
+    "unavailability": -1,
+    "time-period": -1,
+    "es": -1,
+    "cses": -1
+  }
+}

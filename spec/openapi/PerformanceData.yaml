@@ -1,0 +1,567 @@
+---
+openapi: 3.0.0
+info:
+  title: PerformanceData
+  description:
+    This is a service which collects the historical performance dates in the field of MW.
+    A part of it is the airinterface data from a node
+  version: 1.0.0
+tags:
+  - name: performancedata
+    description: PerformanceData of a Node
+paths:
+  /performancedata/{node-id}:
+    get:
+      tags:
+        - performancedata
+      summary: Get the perfomance data of a node
+      description: Get the perfomance data of a node (Airinterface, EthInterface).
+      operationId: getPerformanceData
+      parameters:
+        - name: node-id
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: CO13306
+        - name: timeframe
+          in: query
+          description: timeframe
+          required: true
+          schema:
+            type: string
+            example: 15min
+        - name: since
+          in: query
+          description: Date since
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 2023-06-02T09:45:00+00:00
+        - name: until
+          in: query
+          description: Date until
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 2023-06-02T09:45:00+00:00
+      responses:
+        '200':
+          description: Returns the full Performance Data of a Device, dependig on the selected timeframe
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PerformanceData'
+                ###
+  /performancedata/{node-id}/{logical-termination-point}/{layer-protocol}:
+    get:
+      tags:
+        - performancedata
+      summary: Get the perfomance data of a specific interface
+      description: Get the perfomance data of a specfic interface (Airinterface, EthInterface).
+      operationId: getPerformanceData
+      parameters:
+        - name: node-id
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: CO13306
+        - name: logical-termination-point
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: LTP-MWPS-TTP-7_ODU-A1
+        - name: layer-protocol
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: LP-MWPS-TTP-7_ODU-A
+        - name: timeframe
+          in: query
+          description: timeframe
+          required: true
+          schema:
+            type: string
+            example: 15min
+        - name: since
+          in: query
+          description: Date since
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 2023-06-02T09:45:00+00:00
+        - name: until
+          in: query
+          description: Date until
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 2023-06-02T09:45:00+00:00
+      responses:
+        '200':
+          description: #ToDo
+          content:
+            application/json:
+              schema:
+                $ref: #ToDo
+  /performancedata/{node-id}/air-interface/{logical-termination-point}/{layer-protocol}:
+    get:
+      tags:
+        - performancedata
+      summary: Get the perfomance data of a specific airinterface
+      description: Get the perfomance data of a specfic interface airinterface
+      operationId: getPerformanceData
+      parameters:
+        - name: node-id
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: CO13306
+        - name: logical-termination-point
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: LTP-MWPS-TTP-7_ODU-A1
+        - name: layer-protocol
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: LP-MWPS-TTP-7_ODU-A
+        - name: timeframe
+          in: query
+          description: timeframe
+          required: true
+          schema:
+            type: string
+            example: 15min
+        - name: since
+          in: query
+          description: Date since
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 2023-08-07T12:15:00.0+00:00
+        - name: until
+          in: query
+          description: Date until
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 2023-08-07T12:15:00.0+00:00
+      responses:
+        '200':
+          description: #ToDo
+          content:
+            application/json:
+              schema:
+                $ref: #ToDo
+  /performancedata/{node-id}/ethernet-container/{logical-termination-point}/{layer-protocol}:
+    get:
+      tags:
+        - performancedata
+      summary: Get the perfomance data of a specific ethernet container
+      description: Get the perfomance data of a specfic ethernet container
+      operationId: getPerformanceData
+      parameters:
+        - name: node-id
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: CO13306
+        - name: logical-termination-point
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: LTP-MWPS-TTP-7_ODU-A1
+        - name: layer-protocol
+          in: path
+          description: Node id of the requested device
+          required: true
+          schema:
+            type: string
+            example: LP-MWPS-TTP-7_ODU-A
+        - name: timeframe
+          in: query
+          description: timeframe
+          required: true
+          schema:
+            type: string
+            example: 15min
+        - name: since
+          in: query
+          description: Date since
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 2023-06-02T09:45:00+00:00
+        - name: until
+          in: query
+          description: Date until
+          required: false
+          schema:
+            type: string
+            format: date-time
+            example: 2023-06-02T09:45:00+00:00
+      responses:
+        '200':
+          description: #ToDo
+          content:
+            application/json:
+              schema:
+                $ref: #ToDo
+components:
+  schemas:
+    PerformanceData:
+      type: object
+      properties:
+        vendor:
+          type: string
+          example: Huawei
+        node-id:
+          type: string
+          example: CO13306
+        last-update:
+          type: string
+          format: date-time
+          example: 2023-06-02T09:45:00+00:00
+        air-interface-data-15min:
+          type: array
+          items:
+            $ref: '#/components/schemas/AirInterface'
+        air-interface-data-24h:
+          type: array
+          items:
+            $ref: '#/components/schemas/AirInterface'
+        eth-container-data-15min:
+          type: array
+          items:
+            $ref: '#/components/schemas/EthernetContainer'
+        eth-container-data-24h:
+          type: array
+          items:
+            $ref: '#/components/schemas/EthernetContainer'
+        mac-interface-data-15min:
+          type: array
+          items:
+            $ref: '#/components/schemas/MacInterface'
+        mac-interface-data-24h:
+          type: array
+          items:
+            $ref: '#/components/schemas/MacInterface'
+    AirInterface:
+      type: object
+      properties:
+        timeframe:
+          type: string
+          example: 15min
+        logical-termination-point:
+          type: string
+          example: LTP-MWPS-TTP-7_ODU-A1
+        layer-protocol:
+          type: string
+          example: LP-MWPS-TTP-7_ODU-A1
+        period-end-time:
+          type: string
+          example: 2023-06-02T09:45:00+00:00
+        suspect-interval-flag:
+          type: boolean
+          example: false
+        history-data-id:
+          type: string
+          example: PM_RADIO_15M_04
+        time-period:
+          type: integer
+          example: 900
+        defect-blocks-sum:
+          type: integer
+          example: 0
+        es:
+          type: integer
+          example: 0
+        ses:
+          type: integer
+          example: 0
+        cses:
+          type: integer
+          example: 0
+        unavailability:
+          type: integer
+          example: 0
+        tx-level-min:
+          type: integer
+          example: -2
+        tx-level-max:
+          type: integer
+          example: -2
+        tx-level-avg:
+          type: integer
+          example: -2
+        rx-level-min:
+          type: integer
+          example: -37
+        rx-level-max:
+          type: integer
+          example: -37
+        rx-level-avg:
+          type: integer
+          example: -37
+        snir-min:
+          type: integer
+          example: -99
+        snir-max:
+          type: integer
+          example: -99
+        snir-avg:
+          type: integer
+          example: -99
+        xpd-min:
+          type: integer
+          example: -99
+        xpd-max:
+          type: integer
+          example: -99
+        xpd-avg:
+          type: integer
+          example: -99
+        rf-temp-min:
+          type: integer
+          example: -99
+        rf-temp-max:
+          type: integer
+          example: -99
+        rf-temp-avg:
+          type: integer
+          example: -99
+        time-xstates-list:
+          type: array
+          items:
+            $ref: '#/components/schemas/TransMissonMode'
+    TransMissonMode:
+      type: object
+      properties:
+        time-xstate-sequence-number:
+          type: integer
+          example: 1
+        time:
+          type: integer
+          example: 0
+        transmission-mode-name:
+          type: string
+          example: 28006
+        symbol-rate-reduction-factor:
+          type: integer
+          example: 1
+        channel-bandwidth:
+          type: integer
+          example: 28000
+        xpic-is-avail:
+          type: boolean
+          example: true
+        supported-as-fixed-configuration:
+          type: boolean
+          example: true
+        tx-power-min:
+          type: integer
+          example: 4
+        am-downshift-level:
+          type: integer
+          example: -69
+        modulation-scheme:
+          type: integer
+          example: 64
+        code-rate:
+          type: integer
+          example: 90
+        am-upshift-level:
+          type: integer
+          example: -67
+        rx-threshold:
+          type: integer
+          example: -73,
+        modulation-scheme-name-at-lct:
+          type: string
+          example: 64QAM
+        transmission-mode-rank:
+          type: integer
+          example: 28006
+        tx-power-max:
+          type: integer
+          example: 24
+    EthernetContainer: #Todo Common Properties
+      type: object
+      properties:
+        timeframe:
+          type: string
+          example: 15min
+        logical-termination-point:
+          type: string
+          example: LTP-ETC-TTP-2_LAN-2-RJ45
+        layer-protocol:
+          type: string
+          example: LP-ETC-TTP-2_LAN-2-RJ45
+        period-end-time:
+          type: string
+          example: 2023-06-02T09:45:00+00:00
+        history-data-id:
+          type: string
+          example: History Data ID not defined.
+        suspect-interval-flag:
+          type: boolean
+          example: true
+        max-bytes-per-second-output:
+          type: integer
+          example: 252113160
+        forwarded-frames-output:
+          type: integer
+          example: -1
+        broadcast-frames-input:
+          type: integer
+          example: -1
+        dropped-frames-input:
+          type: integer
+          example: -1,
+        total-bytes-output:
+          type: integer
+          example: -1
+        multicast-frames-output:
+          type: integer
+          example: -1
+        errored-frames-input:
+          type: integer
+          example: -1
+        forwarded-frames-input:
+          type: integer
+          example: -1
+        total-frames-output:
+          type: integer
+          example: 7655665
+        multicast-frames-input:
+          type: integer
+          example: -1
+        fragmented-frames-input:
+          type: integer
+          example: -1
+        unicast-frames-input:
+          type: integer
+          example: -1
+        unicast-frames-output":
+          type: integer
+          example: -1
+        time-period:
+          type: integer
+          example: -1
+        errored-frames-output:
+          type: integer
+          example: -1
+        total-frames-input:
+          type: integer
+          example: 4362127
+        total-bytes-input":
+          type: integer
+          example: -1
+        broadcast-frames-output:
+          type: integer
+          example: -1
+        dropped-frames-output:
+          type: integer
+          example: 1315
+        queue-utilization-list:
+          type: array
+          items:
+            $ref: '#/components/schemas/QueueUtilization'
+    QueueUtilization:
+      type: object
+      properties:
+        queue-name:
+          type: string
+          example: 'ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE2'
+        max-queue-length:
+          type: integer
+          example: -1
+        avg-queue-length:
+          type: integer
+          example: -1
+        available-drop-precedence-kind-list:
+          type: array
+          items:
+            type: string
+          example: [ "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW", "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM" ]
+        available-scheduling-kind-list:
+          type: array
+          items:
+            type: string
+          example: [ "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR", "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT" ]
+        supported-queue-depth-list:
+          type: array
+          items:
+            type: integer
+          example: [ -1 ]
+        available-dropping-behavior-kind-list:
+          type: array
+          items:
+            type: string
+          example: [ "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED","ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL" ]
+        wred-profile-per-drop-precedence-is-available:
+          type: boolean
+          example: true
+    MacInterface:
+      type: object
+      properties:
+        timeframe:
+          type: string
+          example: 15min
+        logical-termination-point:
+          type: string
+          example: LTP-MAC-TTP-2_LAN-3-RJ45
+        layer-protocol:
+          type: string
+          example: LP-MAC-TTP-2_LAN-3-RJ45
+        period-end-time:
+          type: string
+          example: 2010-11-20T14:00:00+01:00
+        history-data-id:
+          type: string
+          example: History Data ID not defined.
+        suspect-interval-flag:
+          type: boolean
+          example: false
+        fragmented-frames-ingress: #ToDO json is string?
+          type: integer
+          example: -1,
+        oversized-frames-ingress:
+          type: integer
+          example: -1,
+        unknown-protocol-frames-input:
+          type: integer
+          example: -1,
+        jabber-frames-ingress:
+          type: integer
+          example: -1,
+        undersized-frames-ingress:
+          type: integer
+          example: -1
+

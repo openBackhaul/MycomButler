@@ -1,0 +1,241 @@
+{
+  "vendor": "Huawei",
+  "node-id": "CO13306",
+  "last-update": "2023-06-02T09:45:00+00:00",
+  "air-interface-data-15min": [
+    {
+      "timeframe": "15min",
+      "logical-termination-point": "LTP-MWPS-TTP-7_ODU-A1",
+      "layer-protocol": "LP-MWPS-TTP-7_ODU-A1",
+      "period-end-time": "2023-06-02T09:45:00+00:00",
+      "suspect-interval-flag": false,
+      "history-data-id": "PM_RADIO_15M_04",
+      "time-period": 900,
+      "defect-blocks-sum": 0,
+      "es": 0,
+      "ses": 0,
+      "cses": 0,
+      "unavailability": 0,
+      "tx-level-min": -2,
+      "tx-level-max": -2,
+      "tx-level-avg": -2,
+      "rx-level-min": -37,
+      "rx-level-max": -37,
+      "rx-level-avg": -37,
+      "snir-min": -99,
+      "snir-max": -99,
+      "snir-avg": -99,
+      "xpd-min": -99,
+      "xpd-max": -99,
+      "xpd-avg": -99,
+      "rf-temp-min": -99,
+      "rf-temp-max": -99,
+      "rf-temp-avg": -99,
+      "time-xstates-list": [
+        {
+          "time-xstate-sequence-number": 1,
+          "time": 0,
+          "transmission-mode-name": "28006",
+          "symbol-rate-reduction-factor": 1,
+          "channel-bandwidth": 28000,
+          "xpic-is-avail": true,
+          "supported-as-fixed-configuration": true,
+          "tx-power-min": 4,
+          "am-downshift-level": -69,
+          "modulation-scheme": 64,
+          "code-rate": 90,
+          "am-upshift-level": -67,
+          "rx-threshold": "-73,",
+          "modulation-scheme-name-at-lct": "64QAM",
+          "transmission-mode-rank": 28006,
+          "tx-power-max": 24
+        }
+      ]
+    }
+  ],
+  "air-interface-data-24h": [
+    {
+      "timeframe": "15min",
+      "logical-termination-point": "LTP-MWPS-TTP-7_ODU-A1",
+      "layer-protocol": "LP-MWPS-TTP-7_ODU-A1",
+      "period-end-time": "2023-06-02T09:45:00+00:00",
+      "suspect-interval-flag": false,
+      "history-data-id": "PM_RADIO_15M_04",
+      "time-period": 900,
+      "defect-blocks-sum": 0,
+      "es": 0,
+      "ses": 0,
+      "cses": 0,
+      "unavailability": 0,
+      "tx-level-min": -2,
+      "tx-level-max": -2,
+      "tx-level-avg": -2,
+      "rx-level-min": -37,
+      "rx-level-max": -37,
+      "rx-level-avg": -37,
+      "snir-min": -99,
+      "snir-max": -99,
+      "snir-avg": -99,
+      "xpd-min": -99,
+      "xpd-max": -99,
+      "xpd-avg": -99,
+      "rf-temp-min": -99,
+      "rf-temp-max": -99,
+      "rf-temp-avg": -99,
+      "time-xstates-list": [
+        {
+          "time-xstate-sequence-number": 1,
+          "time": 0,
+          "transmission-mode-name": "28006",
+          "symbol-rate-reduction-factor": 1,
+          "channel-bandwidth": 28000,
+          "xpic-is-avail": true,
+          "supported-as-fixed-configuration": true,
+          "tx-power-min": 4,
+          "am-downshift-level": -69,
+          "modulation-scheme": 64,
+          "code-rate": 90,
+          "am-upshift-level": -67,
+          "rx-threshold": "-73,",
+          "modulation-scheme-name-at-lct": "64QAM",
+          "transmission-mode-rank": 28006,
+          "tx-power-max": 24
+        }
+      ]
+    }
+  ],
+  "eth-container-data-15min": [
+    {
+      "timeframe": "15min",
+      "logical-termination-point": "LTP-ETC-TTP-2_LAN-2-RJ45",
+      "layer-protocol": "LP-ETC-TTP-2_LAN-2-RJ45",
+      "period-end-time": "2023-06-02T09:45:00+00:00",
+      "history-data-id": "History Data ID not defined.",
+      "suspect-interval-flag": true,
+      "max-bytes-per-second-output": 252113160,
+      "forwarded-frames-output": -1,
+      "broadcast-frames-input": -1,
+      "dropped-frames-input": "-1,",
+      "total-bytes-output": -1,
+      "multicast-frames-output": -1,
+      "errored-frames-input": -1,
+      "forwarded-frames-input": -1,
+      "total-frames-output": 7655665,
+      "multicast-frames-input": -1,
+      "fragmented-frames-input": -1,
+      "unicast-frames-input": -1,
+      "unicast-frames-output\"": -1,
+      "time-period": -1,
+      "errored-frames-output": -1,
+      "total-frames-input": 4362127,
+      "total-bytes-input\"": -1,
+      "broadcast-frames-output": -1,
+      "dropped-frames-output": 1315,
+      "queue-utilization-list": [
+        {
+          "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE2",
+          "max-queue-length": -1,
+          "avg-queue-length": -1,
+          "available-drop-precedence-kind-list": [
+            "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+            "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+          ],
+          "available-scheduling-kind-list": [
+            "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+            "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+          ],
+          "supported-queue-depth-list": [
+            -1
+          ],
+          "available-dropping-behavior-kind-list": [
+            "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+            "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+          ],
+          "wred-profile-per-drop-precedence-is-available": true
+        }
+      ]
+    }
+  ],
+  "eth-container-data-24h": [
+    {
+      "timeframe": "15min",
+      "logical-termination-point": "LTP-ETC-TTP-2_LAN-2-RJ45",
+      "layer-protocol": "LP-ETC-TTP-2_LAN-2-RJ45",
+      "period-end-time": "2023-06-02T09:45:00+00:00",
+      "history-data-id": "History Data ID not defined.",
+      "suspect-interval-flag": true,
+      "max-bytes-per-second-output": 252113160,
+      "forwarded-frames-output": -1,
+      "broadcast-frames-input": -1,
+      "dropped-frames-input": "-1,",
+      "total-bytes-output": -1,
+      "multicast-frames-output": -1,
+      "errored-frames-input": -1,
+      "forwarded-frames-input": -1,
+      "total-frames-output": 7655665,
+      "multicast-frames-input": -1,
+      "fragmented-frames-input": -1,
+      "unicast-frames-input": -1,
+      "unicast-frames-output\"": -1,
+      "time-period": -1,
+      "errored-frames-output": -1,
+      "total-frames-input": 4362127,
+      "total-bytes-input\"": -1,
+      "broadcast-frames-output": -1,
+      "dropped-frames-output": 1315,
+      "queue-utilization-list": [
+        {
+          "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE2",
+          "max-queue-length": -1,
+          "avg-queue-length": -1,
+          "available-drop-precedence-kind-list": [
+            "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+            "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+          ],
+          "available-scheduling-kind-list": [
+            "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+            "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+          ],
+          "supported-queue-depth-list": [
+            -1
+          ],
+          "available-dropping-behavior-kind-list": [
+            "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+            "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+          ],
+          "wred-profile-per-drop-precedence-is-available": true
+        }
+      ]
+    }
+  ],
+  "mac-interface-data-15min": [
+    {
+      "timeframe": "15min",
+      "logical-termination-point": "LTP-MAC-TTP-2_LAN-3-RJ45",
+      "layer-protocol": "LP-MAC-TTP-2_LAN-3-RJ45",
+      "period-end-time": "2010-11-20T14:00:00+01:00",
+      "history-data-id": "History Data ID not defined.",
+      "suspect-interval-flag": false,
+      "fragmented-frames-ingress": "-1,",
+      "oversized-frames-ingress": "-1,",
+      "unknown-protocol-frames-input": "-1,",
+      "jabber-frames-ingress": "-1,",
+      "undersized-frames-ingress": -1
+    }
+  ],
+  "mac-interface-data-24h": [
+    {
+      "timeframe": "15min",
+      "logical-termination-point": "LTP-MAC-TTP-2_LAN-3-RJ45",
+      "layer-protocol": "LP-MAC-TTP-2_LAN-3-RJ45",
+      "period-end-time": "2010-11-20T14:00:00+01:00",
+      "history-data-id": "History Data ID not defined.",
+      "suspect-interval-flag": false,
+      "fragmented-frames-ingress": "-1,",
+      "oversized-frames-ingress": "-1,",
+      "unknown-protocol-frames-input": "-1,",
+      "jabber-frames-ingress": "-1,",
+      "undersized-frames-ingress": -1
+    }
+  ]
+}

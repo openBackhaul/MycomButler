@@ -1,0 +1,69 @@
+{
+  "granularity-period": "ethernet-container-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+  "period-end-time": "2023-06-02T09:45:00+00:00",
+  "performance-data": {
+    "max-bytes-per-second-output": 252113160,
+    "forwarded-frames-output": "-1",
+    "broadcast-frames-input": -1,
+    "dropped-frames-input": -1,
+    "total-bytes-output": "-1",
+    "multicast-frames-output": -1,
+    "errored-frames-input": -1,
+    "forwarded-frames-input": "-1",
+    "total-frames-output": "7655665",
+    "queue-utilization-list": [
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_BEST_EFFORT_QUEUE",
+        "max-queue-length": -1,
+        "avg-queue-length": -1
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_CLASS_SELECTOR_QUEUE7",
+        "max-queue-length": -1,
+        "avg-queue-length": -1
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_CLASS_SELECTOR_QUEUE6",
+        "max-queue-length": -1,
+        "avg-queue-length": -1
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE1",
+        "max-queue-length": -1,
+        "avg-queue-length": -1
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE2",
+        "max-queue-length": -1,
+        "avg-queue-length": -1
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE3",
+        "max-queue-length": -1,
+        "avg-queue-length": -1
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_EXPEDITED_FORWARDING_QUEUE",
+        "max-queue-length": -1,
+        "avg-queue-length": -1
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE4",
+        "max-queue-length": -1,
+        "avg-queue-length": -1
+      }
+    ],
+    "multicast-frames-input": -1,
+    "fragmented-frames-input": -1,
+    "unicast-frames-input": "-1",
+    "unicast-frames-output": "-1",
+    "time-period": -1,
+    "errored-frames-output": -1,
+    "total-frames-input": "4362127",
+    "total-bytes-input": "-1",
+    "broadcast-frames-output": -1,
+    "dropped-frames-output": 1315
+  },
+  "history-data-id": "History Data ID not defined.",
+  "suspect-interval-flag": true
+}

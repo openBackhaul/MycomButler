@@ -1,0 +1,21 @@
+{
+  "mac-interface-historical-performances": {
+    "time-of-latest-change": "2010-11-20T14:00:00+01:00",
+    "historical-performance-data-list": [
+      {
+        "granularity-period": "mac-interface-1-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED",
+        "period-end-time": "2010-11-20T14:00:00+01:00",
+        "history-data-id": "History Data ID not defined.",
+        "performance-data": {
+          "fragmented-frames-ingress": "-1",
+          "oversized-frames-ingress": -1,
+          "unknown-protocol-frames-input": -1,
+          "jabber-frames-ingress": -1,
+          "undersized-frames-ingress": -1
+        },
+        "suspect-interval-flag": false
+      }
+    ],
+    "number-of-historical-performance-sets": 1
+  }
+}
