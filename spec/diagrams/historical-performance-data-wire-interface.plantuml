@@ -1,0 +1,21 @@
+@startuml Recieve_PM_data_wire_interface
+title "Recieve historical performance data of wire interface"
+
+actor Requester
+participant MycomButler
+participant MWDI
+
+Requester -> MycomButler: Request: GET /provide-historical-performance-data/{mount-name}/wire-interface/{logical-termination-point}/{layer-protocol}
+
+activate MycomButler
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}/logical-termination-point={uuid}/layer-protocol={local-id}/wire-interface-2-0:wire-interface-pac
+
+activate MWDI
+MWDI -> MycomButler: Response: PMDataWireInterface
+
+deactivate MWDI
+MycomButler -> Requester: Response: PerformanceData
+
+deactivate MycomButler
+
+@enduml

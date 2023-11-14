@@ -1,0 +1,21 @@
+@startuml Recieve_Device_Data
+title Recieve historical performance data
+
+actor Requester
+participant MycomButler
+participant MWDI
+
+Requester -> MycomButler: Request: GET /provide-historcial-performance-data/{mount-name}
+
+activate MycomButler
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}
+
+activate MWDI
+MWDI -> MycomButler: Response: DeviceData
+
+deactivate MWDI
+MycomButler -> Requester: Response: PerformanceData
+
+deactivate MycomButler
+
+@enduml

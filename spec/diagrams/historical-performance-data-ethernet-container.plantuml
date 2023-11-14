@@ -1,0 +1,21 @@
+@startuml Recieve_PM_data_ethernet_container
+title "Recieve historical performance data of ethernet container"
+
+actor Requester
+participant MycomButler
+participant MWDI
+
+Requester -> MycomButler: Request: GET /provide-historical-performance-data/{mount-name/ethernet-container/{logical-termination-point}/{layer-protocol}:
+
+activate MycomButler
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}/logical-termination-point={uuid}/layer-protocol={local-id}/ethernet-container-2-0:ethernet-container-pac
+
+activate MWDI
+MWDI -> MycomButler: Response: PMDataEthernetContainer
+
+deactivate MWDI
+MycomButler -> Requester: Response: PerformanceData
+
+deactivate MycomButler
+
+@enduml

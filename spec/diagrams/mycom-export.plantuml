@@ -1,0 +1,25 @@
+@startuml Mycom_Export
+title Export Performance Data to Mycom
+
+participant MycomButler
+participant MWDI
+database Elastic
+database FileStorage
+
+loop every 2 hours
+    activate MycomButler
+    MycomButler -> Elastic: Request DeviceUpdateList
+    Elastic -> MycomButler: Response DeviceUpdateList(deviceId, lastUpdate)
+    MycomButler -> MWDI: Request: POST /v1/provide-list-of-connected-devices
+    MWDI -> MycomButler: Response: List<device>
+    MycomButler -> MycomButler: compare List<device> with DeviceUpdateList and use deviceIdswhere lastUpdate > 6 hours or not in DeviceUpdateList
+        loop for each deviceId in filtered List
+            MycomButler -> MWDI: Request:GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}
+            MWDI -> MycomButler: Response: DeviceData
+            MycomButler -> MycomButler: filter historical pm data newer lastUpdate
+            MycomButler -> FileStorage: write to file
+        end
+deactivate MycomButler
+end
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml Recieve_PM_data_hybrid_mw_structure
+title "Recieve historical performance data of hybrid mw structure"
+
+actor Requester
+participant MycomButler
+participant MWDI
+
+Requester -> MycomButler: Request: GET /provide-historical-performance-data/{mount-name}/hybrid-mw-structure/{logical-termination-point}/{layer-protocol}
+
+activate MycomButler
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=live/control-construct={mount-name}/logical-termination-point={uuid}/layer-protocol={local-id}/hybrid-mw-structure-2-0:hybrid-mw-structure-pac
+
+activate MWDI
+MWDI -> MycomButler: Response: PMDataHybridMWStructure
+
+deactivate MWDI
+MycomButler -> Requester: Response: PerformanceData
+
+deactivate MycomButler
+
+@enduml

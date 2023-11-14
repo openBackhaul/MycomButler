@@ -1,0 +1,21 @@
+
+@startuml 00x_Example
+skinparam responseMessageBelowArrow true
+
+title Export Performance Data to Mycom
+
+participant "MycomButler"
+participant "MWDI"
+database "FileStorage"
+
+activate "MycomButler"
+"MycomButler" -> "MWDI": Request: GET /v1/provide-list-of-connected-devices
+"MWDI" -> "MycomButler": Response: List<device>
+    loop for each device
+        "MycomButler" -> "MWDI": Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}
+        "MWDI" -> "MycomButler": Response: DeviceData
+        "MycomButler" -> "FileStorage": write to file
+    end
+deactivate "MycomButler"
+
+@enduml

@@ -1,0 +1,21 @@
+@startuml Recieve_PM_data_pure_ethernet_structure
+title "Recieve historical performance data of pure ethernet structure"
+
+actor Requester
+participant MycomButler
+participant MWDI
+
+Requester -> MycomButler: Request: GET /provide-historical-performance-data/{mount-name}/pure-ethernet-structure/{logical-termination-point}/{layer-protocol}
+
+activate MycomButler
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=live/control-construct={mount-name}/logical-termination-point={uuid}/layer-protocol={local-id}/pure-ethernet-structure-2-0:pure-ethernet-structure-pac
+
+activate MWDI
+MWDI -> MycomButler: Response: PMDataAirInterface
+
+deactivate MWDI
+MycomButler -> Requester: Response: PerformanceData
+
+deactivate MycomButler
+
+@enduml
