@@ -5,10 +5,10 @@ actor Requester
 participant MycomButler
 participant MWDI
 
-Requester -> MycomButler: Request: GET /provide-historcial-performance-data/{mount-name}
+Requester -> MycomButler: Request: GET /provide-historcial-performance-data/{mountName}
 
 activate MycomButler
-MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}?fields=logical-termination-point
 
 activate MWDI
 MWDI -> MycomButler: Response: DeviceData

@@ -5,17 +5,28 @@ actor Requester
 participant MycomButler
 participant MWDI
 
-Requester -> MycomButler: Request: GET /provide-historical-performance-data/{mount-name}/wire-interface/{logical-termination-point}/{layer-protocol}
+Requester -> MycomButler: Request: GET /v1/provide-historical-pm-data-of-device/{mountName}/wire-interface/{logicalTerminationPoint}/{layerProtocol}
 
 activate MycomButler
-MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}/logical-termination-point={uuid}/layer-protocol={local-id}/wire-interface-2-0:wire-interface-pac
 
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/pure-ethernet-structure-2-0:pure-ethernet-structure-pac/pure-ethernet-structure-capability
 activate MWDI
-MWDI -> MycomButler: Response: PMDataWireInterface
-
+MWDI -> MycomButler: Response: WireInterfaceCapabilities
 deactivate MWDI
-MycomButler -> Requester: Response: PerformanceData
+
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/pure-ethernet-structure-2-0:pure-ethernet-structure-pac/pure-ethernet-structure-configuration
+activate MWDI
+MWDI -> MycomButler: Response: WireInterfaceConfiguration
+deactivate MWDI
+
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/pure-ethernet-structure-2-0:pure-ethernet-structure-pac/pure-ethernet-structure-configuration
+activate MWDI
+MWDI -> MycomButler: Response: WireInterfaceHistoricalPerformances
+deactivate MWDI
+
+
+
+MycomButler -> Requester: Response: WireInterfacePerformanceData
 
 deactivate MycomButler
-
 @enduml

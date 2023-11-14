@@ -5,16 +5,25 @@ actor Requester
 participant MycomButler
 participant MWDI
 
-Requester -> MycomButler: Request: GET /provide-historical-performance-data/{mount-name/ethernet-container/{logical-termination-point}/{layer-protocol}:
-
+Requester -> MycomButler: Request: GET /v1/provide-historical-pm-data-of-device/{mountName}/ethernet-container/{logicalTerminationPoint}/{layerProtocol}
 activate MycomButler
-MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}/logical-termination-point={uuid}/layer-protocol={local-id}/ethernet-container-2-0:ethernet-container-pac
 
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/ethernet-container-2-0:ethernet-container-pac/ethernet-container-capability
 activate MWDI
-MWDI -> MycomButler: Response: PMDataEthernetContainer
-
+MWDI -> MycomButler: Response: EthernetContainerCapabilities
 deactivate MWDI
-MycomButler -> Requester: Response: PerformanceData
+
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/ethernet-container-2-0:ethernet-container-pac/ethernet-container-configuration
+activate MWDI
+MWDI -> MycomButler: Response: EthernetContainerConfiguration
+deactivate MWDI
+
+MycomButler -> MWDI: Request: GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/ethernet-container-2-0:ethernet-container-pac/ethernet-container-historical-performances
+activate MWDI
+MWDI -> MycomButler: Response: EthernetContainerHistoricalPerformances
+deactivate MWDI
+
+MycomButler -> Requester: Response: EthernetContainerPerformanceData
 
 deactivate MycomButler
 
