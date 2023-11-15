@@ -1,0 +1,99 @@
+{
+  "air-interface-2-0:air-interface-configuration": {
+    "adaptive-modulation-is-on": true,
+    "tx-frequency": 81000000,
+    "transmission-mode-max": "782.1.1.8.22",
+    "atpc-thresh-upper": 99,
+    "atpc-tx-power-min": -10,
+    "xlts-threshold-cross-alarm-list": [
+      {
+        "level-threshold-second-kind": "air-interface-2-0:XLEVEL_THRESHOLD_SECOND_KIND_TYPE_RLTS",
+        "granularity-period": "air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+        "xlts-threshold-cross-alarm-definition-number": 1,
+        "xlts-level": -98,
+        "amount-of-seconds": 180
+      },
+      {
+        "level-threshold-second-kind": "air-interface-2-0:XLEVEL_THRESHOLD_SECOND_KIND_TYPE_RLTS",
+        "granularity-period": "air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+        "xlts-threshold-cross-alarm-definition-number": 0,
+        "xlts-level": -99,
+        "amount-of-seconds": 15
+      },
+      {
+        "level-threshold-second-kind": "air-interface-2-0:XLEVEL_THRESHOLD_SECOND_KIND_TYPE_RLTS",
+        "granularity-period": "air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+        "xlts-threshold-cross-alarm-definition-number": 0,
+        "xlts-level": -99,
+        "amount-of-seconds": 20
+      },
+      {
+        "level-threshold-second-kind": "air-interface-2-0:XLEVEL_THRESHOLD_SECOND_KIND_TYPE_RLTS",
+        "granularity-period": "air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+        "xlts-threshold-cross-alarm-definition-number": 1,
+        "xlts-level": -98,
+        "amount-of-seconds": 1500
+      },
+      {
+        "level-threshold-second-kind": "air-interface-2-0:XLEVEL_THRESHOLD_SECOND_KIND_TYPE_TLTS",
+        "granularity-period": "air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+        "xlts-threshold-cross-alarm-definition-number": 0,
+        "xlts-level": 35,
+        "amount-of-seconds": 180
+      },
+      {
+        "level-threshold-second-kind": "air-interface-2-0:XLEVEL_THRESHOLD_SECOND_KIND_TYPE_TLTS",
+        "granularity-period": "air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+        "xlts-threshold-cross-alarm-definition-number": 0,
+        "xlts-level": 35,
+        "amount-of-seconds": 1500
+      }
+    ],
+    "xpic-is-on": false,
+    "auto-freq-select-is-on": false,
+    "cryptographic-key": "Cryptographic key not yet defined.",
+    "maintenance-timer": -1,
+    "receiver-is-on": true,
+    "encryption-is-on": false,
+    "transmitted-radio-signal-id": {
+      "alphanumeric-radio-signal-id": "1234A",
+      "numeric-radio-signal-id": -1
+    },
+    "alic-is-on": false,
+    "auto-freq-select-range": -1,
+    "acm-threshold-cross-alarm-list": [
+      {
+        "acm-threshold-cross-alarm-definition-number": 0,
+        "granularity-period": "air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+        "seconds-for-raising-alarm": 180,
+        "seconds-for-clearing-alarm": 20,
+        "transmission-mode": "782.1.1.8.3"
+      },
+      {
+        "acm-threshold-cross-alarm-definition-number": 1,
+        "granularity-period": "air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+        "seconds-for-raising-alarm": 1500,
+        "seconds-for-clearing-alarm": -1,
+        "transmission-mode": "782.1.1.8.3"
+      }
+    ],
+    "remote-air-interface-name": "Air interface ID at the remote site not yet defined.",
+    "performance-monitoring-is-on": true,
+    "power-is-on": true,
+    "mimo-is-on": false,
+    "atpc-thresh-lower": -30,
+    "transmission-mode-min": "782.1.1.8.3",
+    "air-interface-name": "513559991",
+    "atpc-is-on": true,
+    "duplex-distance": -1,
+    "loop-back-kind-on": "air-interface-2-0:LOOP_BACK_TYPE_NONE",
+    "rx-frequency": -1,
+    "transmitter-is-on": true,
+    "tx-power": 18,
+    "expected-radio-signal-id": {
+      "alphanumeric-radio-signal-id": "1234B",
+      "numeric-radio-signal-id": -1
+    },
+    "modulation-is-on": true
+  }
+}

@@ -1,0 +1,19 @@
+:sectnums:
+== Pure Ethernet Structure
+
+=== MWDI Examples for Pure Ethernet Structure
+
+.GET Pure Ethernet Structure from MWDI
+[source, httprequest]
+----
+GET /rests/data/network-topology:network-topology/topology=topology-netconf/node=CO17695/yang-ext:mount/core-model-1-4:control-construct/logical-termination-point=LTP-PURE-TTP-7-10/layer-protocol=LP-PURE-TTP-7-10/pure-ethernet-structure-2-0:pure-ethernet-structure-pac
+----
+
+.MWDI Pure Ethernet Structure PAC Response
+[%collapsible]
+====
+[source, json]
+----
+include::pure-ethernet-structure-pac.json[]
+----
+====

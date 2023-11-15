@@ -1,0 +1,4461 @@
+{
+  "equipment": [
+    {
+      "uuid": "1-Core",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "AGS20-L"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "contained-holder": [
+        {
+          "local-id": "1_XGLAN-2 SFP",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "1_XGLAN-2 SFP",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        },
+        {
+          "local-id": "1_XGLAN-1 SFP",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "1_XGLAN-1 SFP",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "AGS20-L",
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "3",
+              "part-type-identifier": "D60086",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10191522100351F",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "AGS-20 L",
+            "version": "3",
+            "part-type-identifier": "D60086",
+            "type-name": "AGS20-L",
+            "description": "INDOOR UNIT AGS20-L"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "2_LAN-7 SFP",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP Module in 2_LAN-7 SFP connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": true,
+      "local-id": "2_LAN-7 SFP",
+      "connector": [
+        {
+          "local-id": "LAN-7-SFP-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "SFP",
+          "connector": "LAN-7-SFP",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "LAN-7"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "FINISAR CORP.",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "A",
+              "part-type-identifier": "FWLF16217D51",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "FINISAR CORP.",
+            "manufacturer-identifier": "---"
+          },
+          "equipment-instance": {
+            "serial-number": "P2PAK80",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "100baseLX",
+            "version": "A",
+            "part-type-identifier": "FWLF16217D51",
+            "type-name": "SFP module",
+            "description": "SFP module in 2_LAN-7 SFP connector"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "1_XGLAN-2 SFP",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": true,
+      "local-id": "1_XGLAN-2 SFP",
+      "equipment-functional-boundary": "",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Hisense",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "A",
+              "part-type-identifier": "LTF1303-BH+1",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP Module in 1_XGLAN-2 SFP connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+    },
+    {
+      "uuid": "3_ODU-B-mono",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "Radio in 3_ODU-B/B1 connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "3_ODU-B/B1",
+      "connector": [
+        {
+          "local-id": "Radio-ODU-B/Bx-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "IDU-ODU Cable",
+          "connector": "Radio-ODU-B/Bx",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "Radio-ODU-B/Bx"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "001",
+              "part-type-identifier": "GF8701-12",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10200526000042A",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "Radio-Odu",
+            "version": "001",
+            "part-type-identifier": "GF8701-12",
+            "type-name": "RADIO",
+            "description": "RADIO connected to 3_ODU-B/B1"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "2-LIM 8xEth",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "LIM 8xEth"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "contained-holder": [
+        {
+          "local-id": "2_LAN-7 SFP",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "2_LAN-7 SFP",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        },
+        {
+          "local-id": "2_LAN-8 SFP",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "2_LAN-8 SFP",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        },
+        {
+          "local-id": "2_LAN-6 SFP",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "2_LAN-6 SFP",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        },
+        {
+          "local-id": "2_LAN-5 SFP",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "2_LAN-5 SFP",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "LIM 8xEth",
+      "connector": [
+        {
+          "local-id": "LAN-4-RJ45-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "RJ45",
+          "connector": "LAN-4-RJ45",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "LAN-4"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        },
+        {
+          "local-id": "LAN-1-RJ45-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "RJ45",
+          "connector": "LAN-1-RJ45",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "LAN-1"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        },
+        {
+          "local-id": "LAN-2-RJ45-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "RJ45",
+          "connector": "LAN-2-RJ45",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "LAN-2"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        },
+        {
+          "local-id": "LAN-3-RJ45-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "RJ45",
+          "connector": "LAN-3-RJ45",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "LAN-3"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "3",
+              "part-type-identifier": "D60087",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10178978100580D",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "LIM 8xEth",
+            "version": "3",
+            "part-type-identifier": "D60087",
+            "type-name": "LIM 8xEth",
+            "description": "INDOOR UNIT LIM 8xEth"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "3-RIM DC",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RIM DC"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "contained-holder": [
+        {
+          "local-id": "3_ODU-B/B1",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "3_ODU-B-mono",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        },
+        {
+          "local-id": "3_ODU-A/AX",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "3_ODU-A-mono",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "RIM DC",
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "3",
+              "part-type-identifier": "D60313",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10198649300020C",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "RIM DC",
+            "version": "3",
+            "part-type-identifier": "D60313",
+            "type-name": "RIM DC",
+            "description": "INDOOR UNIT RIM DC"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "7_ODU-B-mono",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "Radio in 7_ODU-B/B1 connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "7_ODU-B/B1",
+      "connector": [
+        {
+          "local-id": "Radio-ODU-B/Bx-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "IDU-ODU Cable",
+          "connector": "Radio-ODU-B/Bx",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "Radio-ODU-B/Bx"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "001",
+              "part-type-identifier": "GF8701-12",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10200526000032A",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "Radio-Odu",
+            "version": "001",
+            "part-type-identifier": "GF8701-12",
+            "type-name": "RADIO",
+            "description": "RADIO connected to 7_ODU-B/B1"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "3_ODU-A-mono",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "Radio in 3_ODU-A/AX connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "3_ODU-A/AX",
+      "connector": [
+        {
+          "local-id": "Radio-ODU-A/Ax-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "IDU-ODU Cable",
+          "connector": "Radio-ODU-A/Ax",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "Radio-ODU-A/Ax"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "001",
+              "part-type-identifier": "GF8701-12",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10200526000042A",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "Radio-Odu",
+            "version": "001",
+            "part-type-identifier": "GF8701-12",
+            "type-name": "RADIO",
+            "description": "RADIO connected to 3_ODU-A/AX"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "8-RIM 2xRadio",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RIM 2xRadio"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "contained-holder": [
+        {
+          "local-id": "8_ODU-B",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "8_ODU-B",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        },
+        {
+          "local-id": "8_ODU-A",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "8_ODU-A",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "RIM 2xRadio",
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "4",
+              "part-type-identifier": "D60085",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "101807416031010",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "RIM 2xRadio",
+            "version": "4",
+            "part-type-identifier": "D60085",
+            "type-name": "RIM 2xRadio",
+            "description": "INDOOR UNIT RIM 2xRadio"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "2_LAN-6 SFP",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP Module in 2_LAN-6 SFP connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": true,
+      "local-id": "2_LAN-6 SFP",
+      "connector": [
+        {
+          "local-id": "LAN-6-SFP-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "SFP",
+          "connector": "LAN-6-SFP",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "LAN-6"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "AVAGO",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "G2.1",
+              "part-type-identifier": "AFCT-739ISMZ",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "AVAGO",
+            "manufacturer-identifier": "---"
+          },
+          "equipment-instance": {
+            "serial-number": "AD1914500EA",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "Generic",
+            "version": "G2.1",
+            "part-type-identifier": "AFCT-739ISMZ",
+            "type-name": "SFP module",
+            "description": "SFP module in 2_LAN-6 SFP connector"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "2_LAN-8 SFP",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP Module in 2_LAN-8 SFP connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": true,
+      "local-id": "2_LAN-8 SFP",
+      "connector": [
+        {
+          "local-id": "LAN-8-SFP-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "SFP",
+          "connector": "LAN-8-SFP",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "LAN-8"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "FINISAR CORP.",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "A",
+              "part-type-identifier": "FTLF1323P1BTR",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "FINISAR CORP.",
+            "manufacturer-identifier": "---"
+          },
+          "equipment-instance": {
+            "serial-number": "PB32SD2",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "1000baseBX10",
+            "version": "A",
+            "part-type-identifier": "FTLF1323P1BTR",
+            "type-name": "SFP module",
+            "description": "SFP module in 2_LAN-8 SFP connector"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "4-RIM 1xEth 10Gb",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RIM 1xEth 10G"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "contained-holder": [
+        {
+          "local-id": "4_XGLAN-A SFP",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "4_XGLAN-A SFP",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "RIM 1xEth 10G",
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "1",
+              "part-type-identifier": "D60301",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10179121100320D",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "RIM 1xEth 10G",
+            "version": "1",
+            "part-type-identifier": "D60301",
+            "type-name": "RIM 1xEth 10G",
+            "description": "INDOOR UNIT RIM 1xEth 10G"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "0-RLAG",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RLAG"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "",
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "",
+              "manufacturer-identifier": ""
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "",
+              "part-type-identifier": "",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "",
+            "version": "",
+            "part-type-identifier": "",
+            "type-name": "",
+            "description": "INDOOR UNIT RLAG"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "7-RIM DC",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RIM DC"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "contained-holder": [
+        {
+          "local-id": "7_ODU-B/B1",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "7_ODU-B-mono",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        },
+        {
+          "local-id": "7_ODU-A/AX",
+          "expected-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "actual-holder": {
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "local-id": "",
+            "environmental-rating": {
+              "power-rating": {
+                "power-rating-name": "",
+                "power-rating-value": ""
+              },
+              "humidity-rating": "",
+              "thermal-rating": {
+                "maximum-temperature": "99.0",
+                "minimum-temperature": "-255.0",
+                "thermal-rating-name": ""
+              }
+            },
+            "spatial-properties-of-type": {
+              "height": "",
+              "width": "",
+              "length": ""
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false,
+              "is-captive": false,
+              "is-quantised-space": false
+            },
+            "position": {
+              "relative-position": ""
+            }
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "occupying-fru": "7_ODU-A-mono",
+          "holder-location": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "RIM DC",
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "3",
+              "part-type-identifier": "D60313",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10198649300050C",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "RIM DC",
+            "version": "3",
+            "part-type-identifier": "D60313",
+            "type-name": "RIM DC",
+            "description": "INDOOR UNIT RIM DC"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "7_ODU-A-mono",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "Radio in 7_ODU-A/AX connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "7_ODU-A/AX",
+      "connector": [
+        {
+          "local-id": "Radio-ODU-A/Ax-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "IDU-ODU Cable",
+          "connector": "Radio-ODU-A/Ax",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "Radio-ODU-A/Ax"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "001",
+              "part-type-identifier": "GF8701-12",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10200526000032A",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "Radio-Odu",
+            "version": "001",
+            "part-type-identifier": "GF8701-12",
+            "type-name": "RADIO",
+            "description": "RADIO connected to 7_ODU-A/AX"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "1_XGLAN-1 SFP",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": true,
+      "local-id": "1_XGLAN-1 SFP",
+      "equipment-functional-boundary": "",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Hisense",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "A",
+              "part-type-identifier": "LTF1303-BH+1",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP Module in 1_XGLAN-1 SFP connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+    },
+    {
+      "uuid": "8_ODU-B",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "Radio in 8_ODU-B connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "8_ODU-B",
+      "connector": [
+        {
+          "local-id": "Radio-ODU-B-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "IDU-ODU Cable",
+          "connector": "Radio-ODU-B",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "Radio-ODU-B"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "001",
+              "part-type-identifier": "GE8705-52",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "101793768000710",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "Radio-Odu",
+            "version": "001",
+            "part-type-identifier": "GE8705-52",
+            "type-name": "ASNK-18G",
+            "description": "RADIO connected to 8_ODU-B"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "8_ODU-A",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "Radio in 8_ODU-A connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "8_ODU-A",
+      "connector": [
+        {
+          "local-id": "Radio-ODU-A-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "IDU-ODU Cable",
+          "connector": "Radio-ODU-A",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "Radio-ODU-A"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "001",
+              "part-type-identifier": "GE8705-52",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "101793768000810",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "Radio-Odu",
+            "version": "001",
+            "part-type-identifier": "GE8705-52",
+            "type-name": "ASNK-18G",
+            "description": "RADIO connected to 8_ODU-A"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "2_LAN-5 SFP",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP Module in 2_LAN-5 SFP connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": true,
+      "local-id": "2_LAN-5 SFP",
+      "connector": [
+        {
+          "local-id": "LAN-5-SFP-Connector",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "connector-type": "SFP",
+          "connector": "LAN-5-SFP",
+          "orientation": "core-model-1-4:CONNECTOR_AND_PIN_ORIENTATION_FEMALE",
+          "pin-layout": "",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "name": [
+            {
+              "value-name": "connectorLabel",
+              "value": "LAN-5"
+            }
+          ],
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "role": ""
+        }
+      ],
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "FINISAR CORP.",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "A",
+              "part-type-identifier": "FTLF1323P1BTR",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "FINISAR CORP.",
+            "manufacturer-identifier": "---"
+          },
+          "equipment-instance": {
+            "serial-number": "PBR12DZ",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "1000baseBX10",
+            "version": "A",
+            "part-type-identifier": "FTLF1323P1BTR",
+            "type-name": "SFP module",
+            "description": "SFP module in 2_LAN-5 SFP connector"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    },
+    {
+      "uuid": "4_XGLAN-A SFP",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": true,
+      "local-id": "4_XGLAN-A SFP",
+      "equipment-functional-boundary": "",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP Module in 4_XGLAN-A SFP connector"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+    },
+    {
+      "uuid": "5-Core",
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "AGS20-L"
+        }
+      ],
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "is-field-replaceable": false,
+      "local-id": "AGS20-L",
+      "equipment-functional-boundary": "",
+      "external-managed-id": {
+        "manager-identifier": "",
+        "external-managed-uuid": ""
+      },
+      "expected-equipment": [
+        {
+          "local-id": "1",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "",
+              "power-rating-value": ""
+            },
+            "humidity-rating": "",
+            "thermal-rating": {
+              "maximum-temperature": "99.0",
+              "minimum-temperature": "-255.0",
+              "thermal-rating-name": ""
+            }
+          },
+          "location": {
+            "geographical-location": "",
+            "equipment-location": ""
+          },
+          "spatial-properties-of-type": {
+            "height": "",
+            "width": "",
+            "length": ""
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "physical-characteristics": {
+            "materials": "",
+            "fire-characteristics": "",
+            "weight-characeristics": ""
+          },
+          "manufactured-thing": {
+            "operator-augmented-equipment-instance": {
+              "asset-instance-identifier": ""
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "SIAE Microelettronica SpA",
+              "manufacturer-identifier": "---"
+            },
+            "equipment-instance": {
+              "serial-number": "",
+              "asset-instance-identifier": "",
+              "manufacture-date": "2020-07-07T00:00:00.0+00:00"
+            },
+            "equipment-type": {
+              "model-identifier": "",
+              "version": "3",
+              "part-type-identifier": "D60086",
+              "type-name": "",
+              "description": ""
+            },
+            "operator-augmented-equipment-type": {
+              "asset-type-identifier": ""
+            }
+          },
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "function-enablers": {
+            "power-state": ""
+          },
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+          },
+          "physical-properties": {
+            "temperature": ""
+          },
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "mechanical-functions": {
+            "rotation-speed": ""
+          }
+        }
+      ],
+      "actual-equipment": {
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "",
+            "power-rating-value": ""
+          },
+          "humidity-rating": "",
+          "thermal-rating": {
+            "maximum-temperature": "99.0",
+            "minimum-temperature": "-255.0",
+            "thermal-rating-name": ""
+          }
+        },
+        "location": {
+          "geographical-location": "",
+          "equipment-location": ""
+        },
+        "spatial-properties-of-type": {
+          "height": "",
+          "width": "",
+          "length": ""
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "physical-characteristics": {
+          "materials": "",
+          "fire-characteristics": "",
+          "weight-characeristics": ""
+        },
+        "manufactured-thing": {
+          "operator-augmented-equipment-instance": {
+            "asset-instance-identifier": ""
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "SIAE Microelettronica SpA",
+            "manufacturer-identifier": ""
+          },
+          "equipment-instance": {
+            "serial-number": "10180594401591B",
+            "asset-instance-identifier": "",
+            "manufacture-date": "0000-00-00T00:00:00.0+00:00"
+          },
+          "equipment-type": {
+            "model-identifier": "AGS-20 L",
+            "version": "3",
+            "part-type-identifier": "D60086",
+            "type-name": "AGS20-L",
+            "description": "INDOOR UNIT AGS20-L"
+          },
+          "operator-augmented-equipment-type": {
+            "asset-type-identifier": ""
+          }
+        },
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "function-enablers": {
+          "power-state": ""
+        },
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "local-id": "",
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "physical-properties": {
+          "temperature": ""
+        },
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "mechanical-functions": {
+          "rotation-speed": ""
+        }
+      }
+    }
+  ]
+}

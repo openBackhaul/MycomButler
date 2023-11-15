@@ -1,0 +1,1984 @@
+{
+  "equipment": [
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-8",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-8",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Optical Adapter Unit",
+            "part-type-identifier": "AVR0AZU",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "2016-06-27T00:00:00+00:00",
+            "serial-number": "AVR0AZU"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "FINISAR CORP.",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "SFP-7-8"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-8",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Optical Adapter Unit",
+              "part-type-identifier": "AVR0AZU",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "FINISAR CORP.",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-8"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP-7-8"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-9",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-9",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Optical Adapter Unit",
+            "part-type-identifier": "0000000000000000",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "0000-00-00T00:00:00+00:00",
+            "serial-number": "0000000000000000"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "0000000000000000",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "SFP-7-9"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-9",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Optical Adapter Unit",
+              "part-type-identifier": "0000000000000000",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "0000000000000000",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-9"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP-7-9"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-6",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-6",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Optical Adapter Unit",
+            "part-type-identifier": "J224B019980",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "2014-11-05T00:00:00+00:00",
+            "serial-number": "J224B019980"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Hisense",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "SFP-7-6"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-6",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Optical Adapter Unit",
+              "part-type-identifier": "J224B019980",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Hisense",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-6"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP-7-6"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-7",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-7",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Optical Adapter Unit",
+            "part-type-identifier": "UAMB3K05254",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "2021-03-16T00:00:00+00:00",
+            "serial-number": "UAMB3K05254"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Hisense",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "SFP-7-7"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-7",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Optical Adapter Unit",
+              "part-type-identifier": "UAMB3K05254",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Hisense",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-7"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP-7-7"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-4",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-4",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Electrical Port",
+            "part-type-identifier": "0000000000000000",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "0000-00-00T00:00:00+00:00",
+            "serial-number": "0000000000000000"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Huawei",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_CIRCUIT_PACK"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "RJ45-7-4"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-4",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Electrical Port",
+              "part-type-identifier": "0000000000000000",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Huawei",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_CIRCUIT_PACK"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "RJ45-7-4"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RJ45-7-4"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-5",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-5",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Optical Adapter Unit",
+            "part-type-identifier": "0000000000000000",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "0000-00-00T00:00:00+00:00",
+            "serial-number": "0000000000000000"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "0000000000000000",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "SFP-7-5"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-5",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Optical Adapter Unit",
+              "part-type-identifier": "0000000000000000",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "0000000000000000",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-5"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP-7-5"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-2",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-2",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Electrical Port",
+            "part-type-identifier": "0000000000000000",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "0000-00-00T00:00:00+00:00",
+            "serial-number": "0000000000000000"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Huawei",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_CIRCUIT_PACK"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "RJ45-7-2"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-2",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Electrical Port",
+              "part-type-identifier": "0000000000000000",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Huawei",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_CIRCUIT_PACK"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "RJ45-7-2"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RJ45-7-2"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-3",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-3",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Electrical Port",
+            "part-type-identifier": "0000000000000000",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "0000-00-00T00:00:00+00:00",
+            "serial-number": "0000000000000000"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Huawei",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_CIRCUIT_PACK"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "RJ45-7-3"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-3",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Electrical Port",
+              "part-type-identifier": "0000000000000000",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Huawei",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_CIRCUIT_PACK"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "RJ45-7-3"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RJ45-7-3"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-1",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "EQUIPMENT-1",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "57"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "V100R020C10SPC500",
+            "model-identifier": "OptiXRTN905",
+            "description": "RTN NE",
+            "part-type-identifier": "2102311WJQ10KC000003",
+            "type-name": "OptiXRTN905"
+          },
+          "equipment-instance": {
+            "manufacture-date": "0000-00-00T00:00:00+00:00",
+            "serial-number": "2102311WJQ10KC000003"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Huawei",
+            "manufacturer-identifier": "Huawei"
+          }
+        },
+        "spatial-properties-of-type": {
+          "width": "220",
+          "length": "44",
+          "height": "442"
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SUBRACK"
+        },
+        "environmental-rating": {
+          "power-rating": {
+            "power-rating-name": "Typical",
+            "power-rating-value": "55W-94W"
+          },
+          "thermal-rating": {
+            "minimum-temperature": "-5.0",
+            "thermal-rating-name": "Absolute",
+            "maximum-temperature": "60.0"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": false
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "OptiXRTN905"
+          }
+        ]
+      },
+      "connector": [
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-10",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-10"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-3-2",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "3-2"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-3-1",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "3-1"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-1",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-1"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-2",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-2"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-5",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-5"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-6",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-6"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-3",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-3"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-4",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-4"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-9",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-9"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-7",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-7"
+            }
+          ]
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-8",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "label": [
+            {
+              "value-name": "userLabel"
+            }
+          ],
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "7-8"
+            }
+          ]
+        }
+      ],
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "EQUIPMENT-1",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "V100R020C10SPC500",
+              "model-identifier": "OptiXRTN905",
+              "description": "RTN NE",
+              "part-type-identifier": "2102311WJQ10KC000003",
+              "type-name": "OptiXRTN905"
+            },
+            "equipment-instance": {
+              "serial-number": "2102311WJQ10KC000003"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Huawei",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "spatial-properties-of-type": {
+            "width": "220",
+            "length": "44",
+            "height": "442"
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_STAND_ALONE_UNIT"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "environmental-rating": {
+            "power-rating": {
+              "power-rating-name": "Typical",
+              "power-rating-value": "55W-94W"
+            },
+            "thermal-rating": {
+              "minimum-temperature": "-5.0",
+              "thermal-rating-name": "Absolute",
+              "maximum-temperature": "60.0"
+            }
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "OptiXRTN905"
+            }
+          ]
+        }
+      ],
+      "contained-holder": [
+        {
+          "local-id": "HUAWEI-EQUIPMENT-3-1",
+          "holder-location": "3-1",
+          "actual-holder": {
+            "local-id": "3-1",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "label": [
+              {
+                "value-name": "userLabel"
+              }
+            ],
+            "holder-structure": {
+              "is-captive": false,
+              "is-quantised-space": false,
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false
+            },
+            "spatial-properties-of-type": {
+              "width": "41.5",
+              "length": "172",
+              "height": "172"
+            },
+            "environmental-rating": {
+              "thermal-rating": {
+                "minimum-temperature": "-33.0",
+                "thermal-rating-name": "Absolute",
+                "maximum-temperature": "55.0"
+              },
+              "humidity-rating": "absolute:5%-100%",
+              "power-rating": {
+                "power-rating-name": "Typical",
+                "power-rating-value": "25W"
+              }
+            },
+            "extension": [
+              {
+                "value-name": "userExtension",
+                "value": ""
+              }
+            ],
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "position": {
+              "relative-position": "3-1"
+            },
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "name": [
+              {
+                "value-name": "name",
+                "value": "3-1"
+              }
+            ]
+          },
+          "expected-holder": {
+            "local-id": "3-1",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "label": [
+              {
+                "value-name": "userLabel"
+              }
+            ],
+            "holder-structure": {
+              "is-captive": false,
+              "is-quantised-space": false,
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false
+            },
+            "spatial-properties-of-type": {
+              "width": "41.5",
+              "length": "172",
+              "height": "172"
+            },
+            "environmental-rating": {
+              "thermal-rating": {
+                "minimum-temperature": "-33.0",
+                "thermal-rating-name": "Absolute",
+                "maximum-temperature": "55.0"
+              },
+              "humidity-rating": "absolute:5%-100%",
+              "power-rating": {
+                "power-rating-name": "Typical",
+                "power-rating-value": "25W"
+              }
+            },
+            "extension": [
+              {
+                "value-name": "userExtension"
+              }
+            ],
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "position": {
+              "relative-position": "3-1"
+            },
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "name": [
+              {
+                "value-name": "name",
+                "value": "3-1"
+              }
+            ]
+          },
+          "occupying-fru": "HUAWEI-EQUIPMENT-3-1"
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-3-2",
+          "holder-location": "3-2",
+          "actual-holder": {
+            "local-id": "3-2",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "label": [
+              {
+                "value-name": "userLabel"
+              }
+            ],
+            "holder-structure": {
+              "is-captive": false,
+              "is-quantised-space": false,
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false
+            },
+            "spatial-properties-of-type": {
+              "width": "41.5",
+              "length": "172",
+              "height": "172"
+            },
+            "environmental-rating": {
+              "thermal-rating": {
+                "minimum-temperature": "-33.0",
+                "thermal-rating-name": "Absolute",
+                "maximum-temperature": "55.0"
+              },
+              "humidity-rating": "absolute:5%-100%",
+              "power-rating": {
+                "power-rating-name": "Typical",
+                "power-rating-value": "25W"
+              }
+            },
+            "extension": [
+              {
+                "value-name": "userExtension",
+                "value": ""
+              }
+            ],
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "position": {
+              "relative-position": "3-2"
+            },
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "name": [
+              {
+                "value-name": "name",
+                "value": "3-2"
+              }
+            ]
+          },
+          "expected-holder": {
+            "local-id": "3-2",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "label": [
+              {
+                "value-name": "userLabel"
+              }
+            ],
+            "holder-structure": {
+              "is-captive": false,
+              "is-quantised-space": false,
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT",
+              "is-guided": false
+            },
+            "spatial-properties-of-type": {
+              "width": "41.5",
+              "length": "172",
+              "height": "172"
+            },
+            "environmental-rating": {
+              "thermal-rating": {
+                "minimum-temperature": "-33.0",
+                "thermal-rating-name": "Absolute",
+                "maximum-temperature": "55.0"
+              },
+              "humidity-rating": "absolute:5%-100%",
+              "power-rating": {
+                "power-rating-name": "Typical",
+                "power-rating-value": "25W"
+              }
+            },
+            "extension": [
+              {
+                "value-name": "userExtension"
+              }
+            ],
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "position": {
+              "relative-position": "3-2"
+            },
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+            "name": [
+              {
+                "value-name": "name",
+                "value": "3-2"
+              }
+            ]
+          },
+          "occupying-fru": "HUAWEI-EQUIPMENT-3-2"
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-10",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-10",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-10",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-10"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-10",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-1",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-1",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-1",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "RJ45-7-1"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-1",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-2",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-2",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-2",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "RJ45-7-2"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-2",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-3",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-3",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-3",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "RJ45-7-3"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-3",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-4",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-4",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-4",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "RJ45-7-4"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-4",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-5",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-5",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-5",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-5"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-5",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-6",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-6",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-6",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-6"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-6",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-7",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-7",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-7",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-7"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-7",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-8",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-8",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-8",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-8"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-8",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        },
+        {
+          "local-id": "HUAWEI-EQUIPMENT-7-9",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "occupying-fru": "HUAWEI-EQUIPMENT-7-9",
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "actual-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-9",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-9"
+            }
+          ],
+          "expected-holder": {
+            "local-id": "HUAWEI-EQUIPMENT-7-9",
+            "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+            "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+            "holder-structure": {
+              "holder-category": "core-model-1-4:HOLDER_CATEGORY_SLOT"
+            },
+            "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+            "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+          }
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK"
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-1",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-1",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Electrical Port",
+            "part-type-identifier": "0000000000000000",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "0000-00-00T00:00:00+00:00",
+            "serial-number": "0000000000000000"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Huawei",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_CIRCUIT_PACK"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "RJ45-7-1"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-1",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Electrical Port",
+              "part-type-identifier": "0000000000000000",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Huawei",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_CIRCUIT_PACK"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "RJ45-7-1"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "RJ45-7-1"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-3-2",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "3-2",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4ISM8",
+            "description": "Modem Unit",
+            "part-type-identifier": "21524149104GM4000160",
+            "type-name": "SLD4ISM8"
+          },
+          "equipment-instance": {
+            "manufacture-date": "2021-04-10T00:00:00+00:00",
+            "serial-number": "21524149104GM4000160"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Huawei",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "spatial-properties-of-type": {
+          "width": "-1",
+          "length": "-1",
+          "height": "-1"
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "environmental-rating": {
+          "thermal-rating": {
+            "minimum-temperature": "-1.0",
+            "thermal-rating-name": "Absolute",
+            "maximum-temperature": "-1.0"
+          },
+          "humidity-rating": "absolute:",
+          "power-rating": {
+            "power-rating-name": "Typical",
+            "power-rating-value": "-1"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "IF-3-2"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "3-2",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4ISM8",
+              "description": "Modem Unit",
+              "part-type-identifier": "21524149104GM4000160",
+              "type-name": "SLD4ISM8"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Huawei",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "spatial-properties-of-type": {
+            "width": "-1",
+            "length": "-1",
+            "height": "-1"
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "environmental-rating": {
+            "thermal-rating": {
+              "minimum-temperature": "-1.0",
+              "thermal-rating-name": "Absolute",
+              "maximum-temperature": "-1.0"
+            },
+            "humidity-rating": "absolute:",
+            "power-rating": {
+              "power-rating-name": "Typical",
+              "power-rating-value": "-1"
+            }
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "IF-3-2"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "IF-3-2"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-7-10",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "7-10",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4EM10",
+            "description": "Optical Adapter Unit",
+            "part-type-identifier": "0000000000000000",
+            "type-name": "SLD4EM10"
+          },
+          "equipment-instance": {
+            "manufacture-date": "0000-00-00T00:00:00+00:00",
+            "serial-number": "0000000000000000"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "0000000000000000",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "SFP-7-10"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "7-10",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4EM10",
+              "description": "Optical Adapter Unit",
+              "part-type-identifier": "0000000000000000",
+              "type-name": "SLD4EM10"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "0000000000000000",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "name": [
+            {
+              "value-name": "name",
+              "value": "SFP-7-10"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "SFP-7-10"
+        }
+      ]
+    },
+    {
+      "uuid": "HUAWEI-EQUIPMENT-3-1",
+      "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+      "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+      "actual-equipment": {
+        "local-id": "3-1",
+        "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+        "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+        "physical-properties": {
+          "temperature": "-1"
+        },
+        "manufactured-thing": {
+          "equipment-type": {
+            "version": "0000",
+            "model-identifier": "SLD4ISM8",
+            "description": "Modem Unit",
+            "part-type-identifier": "21524149104GM4000147",
+            "type-name": "SLD4ISM8"
+          },
+          "equipment-instance": {
+            "manufacture-date": "2021-04-10T00:00:00+00:00",
+            "serial-number": "21524149104GM4000147"
+          },
+          "manufacturer-properties": {
+            "manufacturer-name": "Huawei",
+            "manufacturer-identifier": "000"
+          }
+        },
+        "spatial-properties-of-type": {
+          "width": "-1",
+          "length": "-1",
+          "height": "-1"
+        },
+        "structure": {
+          "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+        },
+        "environmental-rating": {
+          "thermal-rating": {
+            "minimum-temperature": "-1.0",
+            "thermal-rating-name": "Absolute",
+            "maximum-temperature": "-1.0"
+          },
+          "humidity-rating": "absolute:",
+          "power-rating": {
+            "power-rating-name": "Typical",
+            "power-rating-value": "-1"
+          }
+        },
+        "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+        "swappability": {
+          "is-hot-swappable": true
+        },
+        "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+        "name": [
+          {
+            "value-name": "name",
+            "value": "IF-3-1"
+          }
+        ]
+      },
+      "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+      "expected-equipment": [
+        {
+          "local-id": "3-1",
+          "lifecycle-state": "core-model-1-4:LIFECYCLE_STATE_INSTALLED",
+          "operational-state": "core-model-1-4:OPERATIONAL_STATE_ENABLED",
+          "manufactured-thing": {
+            "equipment-type": {
+              "version": "0000",
+              "model-identifier": "SLD4ISM8",
+              "description": "Modem Unit",
+              "part-type-identifier": "21524149104GM4000147",
+              "type-name": "SLD4ISM8"
+            },
+            "manufacturer-properties": {
+              "manufacturer-name": "Huawei",
+              "manufacturer-identifier": "000"
+            }
+          },
+          "spatial-properties-of-type": {
+            "width": "-1",
+            "length": "-1",
+            "height": "-1"
+          },
+          "administrative-state": "core-model-1-4:ADMINISTRATIVE_STATE_UNLOCKED",
+          "swappability": {
+            "is-hot-swappable": true
+          },
+          "structure": {
+            "category": "core-model-1-4:EQUIPMENT_CATEGORY_SMALL_FORMFACTOR_PLUGGABLE"
+          },
+          "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+          "environmental-rating": {
+            "thermal-rating": {
+              "minimum-temperature": "-1.0",
+              "thermal-rating-name": "Absolute",
+              "maximum-temperature": "-1.0"
+            },
+            "humidity-rating": "absolute:",
+            "power-rating": {
+              "power-rating-name": "Typical",
+              "power-rating-value": "-1"
+            }
+          },
+          "name": [
+            {
+              "value-name": "name",
+              "value": "IF-3-1"
+            }
+          ]
+        }
+      ],
+      "administrative-control": "core-model-1-4:ADMINISTRATIVE_CONTROL_UNLOCK",
+      "name": [
+        {
+          "value-name": "name",
+          "value": "IF-3-1"
+        }
+      ]
+    }
+  ]
+}

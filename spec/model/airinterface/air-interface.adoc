@@ -1,0 +1,76 @@
+:sectnums:
+== Air Interface
+
+=== MWDI Examples for Air Interface
+==== Air Interface Control Construct
+
+.GET Air-Interface-Control-Construct
+[source, httprequest]
+----
+GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}
+----
+
+.MWDI Air-Interface-Control-Construct Response
+[%collapsible]
+====
+[source, json]
+----
+include::air-interface-capability.json[]
+----
+====
+
+==== Air Interface Capability
+
+.GET Air-Interface-Capability
+[source, httprequest]
+----
+GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/air-interface-2-0:air-interface-pac/air-interface-capability
+----
+
+.MWDI Air Interface Capability Response
+[%collapsible]
+====
+[source, json]
+----
+include::air-interface-capability.json[]
+----
+====
+
+==== Air Interface Configuration
+.GET Air-Interface-Configuration
+[source, httprequest]
+----
+GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/air-interface-2-0:air-interface-pac/air-interface-configuration
+----
+
+.MWDI Air Interface Configuration Response
+[%collapsible]
+====
+[source, json]
+----
+include::air-interface-configuration.json[]
+----
+====
+
+==== Air Interface Historical Performances
+.GET Air-Interface-Historical-Performances
+[source, httprequest]
+----
+GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/air-interface-2-0:air-interface-pac/air-interface-historical-performances
+----
+
+
+.MWDI Air Interface Historical Performances Response
+[%collapsible]
+====
+[source, json]
+----
+include::air-interface-historical-performances.json[]
+----
+====
+
+
+
+=== Air Interface Data Mapping
+
+==== Air Interface Response from MycomButler

@@ -1,0 +1,17 @@
+{
+  "hybrid-mw-structure-2-0:hybrid-mw-structure-capability": {
+    "performance-monitoring-is-avail": true,
+    "supported-tdm-structure-kind-list": [
+      {
+        "tdm-structure-name": "stm1",
+        "tdm-segment-size": 155520,
+        "max-number-of-segments-reservable": 2
+      },
+      {
+        "tdm-structure-name": "e1",
+        "tdm-segment-size": 2048,
+        "max-number-of-segments-reservable": 64
+      }
+    ]
+  }
+}

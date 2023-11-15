@@ -1,0 +1,102 @@
+{
+  "wire-interface-2-0:wire-interface-pac": {
+    "wire-interface-historical-performances": {
+      "number-of-historical-performance-sets": -1,
+      "time-of-latest-change": "2010-11-20T14:00:00+01:00"
+    },
+    "wire-interface-capability": {
+      "configuration-of-rx-sync-preference-is-avail": false,
+      "wavelength-max-list": [
+        1310000
+      ],
+      "unidirectional-operation-is-avail": false,
+      "auto-pmd-negotiation-is-avail": false,
+      "eee-is-avail": false,
+      "wavelength-grid-min": -1,
+      "isolation-is-avail": false,
+      "supported-loop-back-kind-list": [
+        "wire-interface-2-0:LOOP_BACK_TYPE_NONE"
+      ],
+      "maintenance-timer-range": "0-172800",
+      "rxlevel-low-threshold": -30,
+      "rxlevel-high-threshold": -17,
+      "short-reach-mode-is-avail": false,
+      "auto-signal-ordering-is-avail": false,
+      "required-medium-kind": "wire-interface-2-0:MEDIUM_KIND_TYPE_SINGLE_MODE",
+      "temperature-low-threshold": -40,
+      "supported-pmd-kind-list": [
+        {
+          "pmd-name": "1000BASE-LX_FD",
+          "speed": "1000Mbit/s",
+          "duplex": "wire-interface-2-0:DUPLEX_TYPE_FULL_DUPLEX"
+        }
+      ],
+      "auto-negotiation-pmd-selection-is-avail": false,
+      "configuration-of-number-of-bip-errors-per-ses-is-avail": false,
+      "supported-signal-ordering-kind-list": [
+        "wire-interface-2-0:SIGNAL_ORDERING_KIND_TYPE_NOT_YET_DEFINED"
+      ],
+      "wavelength-min-list": [
+        1310000
+      ],
+      "mii-kind": "wire-interface-2-0:MII_KIND_TYPE_SFP_SFP_PLUS_SFP28",
+      "mdi-kind": "wire-interface-2-0:MDI_KIND_TYPE_LC",
+      "performance-monitoring-is-avail": false,
+      "temperature-high-threshold": 85,
+      "admin-shut-down-is-avail": true
+    },
+    "wire-interface-current-performance": {
+      "number-of-current-performance-sets": -1
+    },
+    "wire-interface-status": {
+      "tx-level-cur": 0,
+      "receiver-status-list": [
+        {
+          "receiver-index": 1,
+          "receive-signal-is-detected": false,
+          "rx-level-cur": 10
+        }
+      ],
+      "link-is-up": false,
+      "performance-monitoring-is-up": false,
+      "signal-ordering-kind-cur": "wire-interface-2-0:SIGNAL_ORDERING_KIND_TYPE_NOT_YET_DEFINED",
+      "eee-is-up": false,
+      "pmd-negotiation-state": "wire-interface-2-0:PMD_NEGOTIATION_STATE_TYPE_DISABLED",
+      "rx-sync-role": "wire-interface-2-0:RX_SYNC_ROLE_TYPE_NOT_YET_DEFINED",
+      "link-is-idle": false,
+      "rx-collisions": "-1",
+      "pmd-is-up": false,
+      "interface-status": "wire-interface-2-0:INTERFACE_STATUS_TYPE_UP",
+      "loop-back-kind-up": "wire-interface-2-0:LOOP_BACK_TYPE_NONE",
+      "pmd-kind-cur": "1000BASE-LX_FD"
+    },
+    "wire-interface-configuration": {
+      "auto-negotiation-pmd-list": [
+        "1000BASE-LX_FD"
+      ],
+      "loop-back-kind-on": "wire-interface-2-0:LOOP_BACK_TYPE_NONE",
+      "auto-pmd-negotiation-is-on": false,
+      "remote-wire-interface-name": "",
+      "interface-is-on": false,
+      "transceiver-configuration-list": [
+        {
+          "transceiver-index": 1,
+          "wavelength": 1310000,
+          "transceiver-is-on": true
+        }
+      ],
+      "fixed-pmd-kind": "1000BASE-LX_FD",
+      "short-reach-mode-is-on": false,
+      "auto-signal-ordering-is-on": false,
+      "isolation-is-on": false,
+      "number-of-bip-errors-per-ses": -1,
+      "eee-is-on": false,
+      "maintenance-timer": 900,
+      "interface-name": "LAN 8",
+      "rx-sync-preference": "wire-interface-2-0:RX_SYNC_PREFERENCE_TYPE_NOT_YET_DEFINED",
+      "unidirectional-operation-is-on": false,
+      "performance-monitoring-is-on": false,
+      "fixed-signal-ordering-kind": "wire-interface-2-0:SIGNAL_ORDERING_KIND_TYPE_NOT_YET_DEFINED"
+    }
+  }
+}

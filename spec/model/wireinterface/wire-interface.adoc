@@ -1,0 +1,19 @@
+:sectnums:
+== Wire Interface
+
+=== MWDI Examples for Wire Interface
+
+.GET Wire Interface from MWDI
+[source, httprequest]
+----
+GET /rests/data/network-topology:network-topology/topology=topology-netconf/node=CO13306/yang-ext:mount/core-model-1-4:control-construct/logical-termination-point=LTP-ETY-TTP-2_LAN-8-SFP/layer-protocol=LP-ETY-TTP-2_LAN-8-SFP/wire-interface-2-0:wire-interface-pac
+----
+
+.MWDI Wire Interface PAC Response
+[%collapsible]
+====
+[source, json]
+----
+include::wire-interface-pac.json[]
+----
+====

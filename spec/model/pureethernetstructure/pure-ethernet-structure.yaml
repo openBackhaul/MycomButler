@@ -1,0 +1,102 @@
+components: #ToDo compare again with UML and YANG File
+  schemas:  #ToDO Specification
+    PureEthernetStructure:
+      type: object
+      properties:
+        mount-name:
+          type: string
+          example: CO17691
+        logical-termination-point:
+          type: string
+          example: LTP-MWPS-TTP-7_ODU-A1
+        layer-protocol:
+          type: string
+          example: LP-MWPS-TTP-7_ODU-A1
+        pure-ethernet-structure-configuration:
+          $ref: '#/components/schemas/PureEthernetStructureConfiguration'
+        pure-ethernet-structure-capability:
+          $ref: '#/components/schemas/PureEthernetStructureCapability'
+        pure-ethernet-structure-historical-performances:
+          $ref: '#/components/schemas/PureEthernetStructureHistoricalPerformances'
+    PureEthernetStructureConfiguration:
+      type: object
+      properties:
+        performance-monitoring-is-on:
+          type: boolean
+          example: true
+        g-826-threshold-cross-alarm-list:
+          type: array
+          items:
+            type: object
+            properties:
+              g-826-value-kind:
+                type: string
+                example: pure-ethernet-structure-2-0:G_826_TYPE_NOT_SPECIFIED",
+              granularity-period:
+                type: string
+                example: pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED
+              alarm-raising-threshold:
+                type: integer
+                example: -1
+              alarm-clearing-threshold:
+                type: integer
+                example: -1
+    PureEthernetStructureCapability: #ToDO sicher gehen ob stimmt
+      type: object
+      properties:
+        performance-monitoring-is-avail:
+          type: boolean
+          example: true
+    PureEthernetStructureHistoricalPerformances:
+      type: object
+      properties:
+        time-of-latest-change:
+          type: string
+          example: 2023-11-15T13:00:00+01:00,
+        number-of-historical-performance-sets:
+          type: integer
+          example: 126
+        historical-performance-data-list:
+          type: array
+          items:
+            type: object
+            properties:
+              granularity-period:
+                type: string
+                example: pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+              period-end-time:
+                type: string
+                example: 2023-11-15T02:30:00+01:00
+              suspect-interval-flag:
+                type: boolean
+                example: false
+              history-data-id:
+                type: string
+                example: History Data ID not defined.
+              performance-data:
+                type: object
+                properties:
+                  rx-level-max:
+                    type: integer
+                    example: -36
+                  rx-level-avg:
+                    type: integer
+                    example: -36
+                  rx-level-min:
+                    type: integer
+                    example: -36
+                  unavailability:
+                    type: integer
+                    example: -1,
+                  ses:
+                    type: integer
+                    example: -1
+                  cses:
+                    type: integer
+                    example: -1
+                  es:
+                    type: integer
+                    example: -1
+                  time-period:
+                    type: integer
+                    example: 900

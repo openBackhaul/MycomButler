@@ -1,0 +1,234 @@
+components: #ToDo compare again with UML and YANG File
+  schemas:  #ToDO Specification
+    WireInterface:
+      type: object
+      properties:
+        mount-name:
+          type: string
+          example: 513250007
+        logical-termination-point:
+          type: string
+          example: LTP-WIREINTERFACE-TTP-6-3
+        layer-protocol:
+          type: string
+          example: LP-WIREINTERFACE-TTP-6-3
+        pure-ethernet-structure-configuration:
+          $ref: '#/components/schemas/WireInterfaceConfiguration'
+        pure-ethernet-structure-capability:
+          $ref: '#/components/schemas/WireInterfaceCapability'
+        pure-ethernet-structure-historical-performances:
+          $ref: '#/components/schemas/WireInterfaceHistoricalPerformances'
+    WireInterfaceConfiguration:
+      type: object
+      properties:
+        auto-negotiation-pmd-list:
+          type: array
+          items:
+            type: string
+            example: 1000BASE-LX_FD
+        loop-back-kind-on:
+          type: string
+          example: wire-interface-2-0:LOOP_BACK_TYPE_NONE
+        auto-pmd-negotiation-is-on:
+          type: boolean
+          example: false
+        remote-wire-interface-name:
+          type: string
+          example: ""
+        interface-is-on:
+          type: boolean
+          example: false
+        transceiver-configuration-list:
+          type: array
+          items:
+            type: object
+            properties:
+              transceiver-index:
+                type: integer
+                example: 1
+              wavelength:
+                type: integer
+                example: 1310000
+              transceiver-is-on:
+                type: boolean
+                example: true
+        fixed-pmd-kind:
+          type: string
+          example: 1000BASE-LX_FD
+        short-reach-mode-is-on:
+          type: boolean
+          example: false
+        auto-signal-ordering-is-on:
+          type: boolean
+          example: false
+        isolation-is-on:
+          type: boolean
+          example: false
+        number-of-bip-errors-per-ses:
+          type: integer
+          example: -1
+        eee-is-on:
+          type: boolean
+          example: false
+        maintenance-timer:
+          type: integer
+          example: 900
+        interface-name:
+          type: string
+          example: LAN 8
+        rx-sync-preference:
+          type: string
+          example: wire-interface-2-0:RX_SYNC_PREFERENCE_TYPE_NOT_YET_DEFINED
+        unidirectional-operation-is-on:
+          type: boolean
+          example: false
+        performance-monitoring-is-on:
+          type: boolean
+          example: false,
+        fixed-signal-ordering-kind:
+          type: string
+          example: wire-interface-2-0:SIGNAL_ORDERING_KIND_TYPE_NOT_YET_DEFINED
+    WireInterfaceCapability:
+      type: object
+      properties:
+        configuration-of-rx-sync-preference-is-avail:
+          type: boolean
+          example: false
+        wavelength-max-list:
+          type: array
+          items:
+            type: integer
+            example: 1310000
+        unidirectional-operation-is-avail:
+          type: boolean
+          example: false
+        auto-pmd-negotiation-is-avail:
+          type: boolean
+          example: false
+        eee-is-avail:
+          type: boolean
+          example: false,
+        wavelength-grid-min:
+          type: integer
+          example: -1
+        isolation-is-avail:
+          type: boolean
+          example: false
+        supported-loop-back-kind-list:
+          type: array
+          items:
+            type: string
+            example: wire-interface-2-0:LOOP_BACK_TYPE_NONE
+        maintenance-timer-range:
+          type: string
+          example: 0-172800
+        rxlevel-low-threshold:
+          type: integer
+          example: -30
+        rxlevel-high-threshold:
+          type: integer
+          example: -17
+        short-reach-mode-is-avail:
+          type: boolean
+          example: false
+        auto-signal-ordering-is-avail:
+          type: boolean
+          example: false
+        required-medium-kind:
+          type: string
+          example: wire-interface-2-0:MEDIUM_KIND_TYPE_SINGLE_MODE
+        temperature-low-threshold:
+          type: integer
+          example: -40
+        supported-pmd-kind-list:
+          type: array
+          items:
+            type: object
+            properties:
+              pmd-name:
+                type: string
+                example: 1000BASE-LX_FD
+              speed:
+                type: string
+                example: 1000Mbit/s
+              duplex:
+                type: string
+                example: wire-interface-2-0:DUPLEX_TYPE_FULL_DUPLEX
+        auto-negotiation-pmd-selection-is-avail:
+          type: boolean
+          example: false
+        configuration-of-number-of-bip-errors-per-ses-is-avail:
+          type: boolean
+          example: false
+        supported-signal-ordering-kind-list:
+          type: array
+          items:
+            type: string
+            example: wire-interface-2-0:SIGNAL_ORDERING_KIND_TYPE_NOT_YET_DEFINED
+        wavelength-min-list:
+          type: array
+          items:
+            type: integer
+            example: 1310000
+        mii-kind:
+          type: string
+          example: wire-interface-2-0:MII_KIND_TYPE_SFP_SFP_PLUS_SFP28
+        mdi-kind:
+          type: string
+          example: wire-interface-2-0:MDI_KIND_TYPE_LC
+        performance-monitoring-is-avail:
+          type: boolean
+          example: false
+        temperature-high-threshold:
+          type: integer
+          example: 85
+        admin-shut-down-is-avail:
+          type: boolean
+          example: true
+    WireInterfaceHistoricalPerformances:
+      type: object
+      properties:
+        time-of-latest-change:
+          type: string
+          example: 2023-11-15T13:00:00+01:00,
+        number-of-historical-performance-sets:
+          type: integer
+          example: 126
+        historical-performance-data-list:
+          type: array
+          items:
+            type: object
+            properties:
+              granularity-period:
+                type: string
+                example: wire-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+              period-end-time:
+                type: string
+                example: 2023-11-15T02:30:00+01:00
+              suspect-interval-flag:
+                type: boolean
+                example: false
+              history-data-id:
+                type: string
+                example: History Data ID not defined.
+              performance-data:
+                type: object
+                properties:
+                  es:
+                    type: integer
+                    example: -1
+                  ses:
+                    type: integer
+                    example: -1,
+                  low-power-idle-receiver-ms:
+                    type: integer
+                    example: -1,
+                  rx-collisions:
+                    type: integer
+                    example: -1,
+                  low-power-idle-transmitter-ms:
+                    type: integer
+                    example: -1
+                  symbol-error-during-carrier:
+                    type: integer
+                    example: -1

@@ -1,0 +1,440 @@
+{
+  "hybrid-mw-structure-2-0:hybrid-mw-structure-pac": {
+    "hybrid-mw-structure-capability": {
+      "performance-monitoring-is-avail": true,
+      "supported-tdm-structure-kind-list": [
+        {
+          "tdm-structure-name": "stm1",
+          "tdm-segment-size": 155520,
+          "max-number-of-segments-reservable": 2
+        },
+        {
+          "tdm-structure-name": "e1",
+          "tdm-segment-size": 2048,
+          "max-number-of-segments-reservable": 64
+        }
+      ]
+    },
+    "hybrid-mw-structure-current-performance": {
+      "number-of-current-performance-sets": 2,
+      "current-performance-data-list": [
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "suspect-interval-flag": true,
+          "timestamp": "2010-11-20T14:00:00+01:00",
+          "scanner-id": "Scanner ID not defined.",
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "elapsed-time": "-1"
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "suspect-interval-flag": true,
+          "timestamp": "2010-11-20T14:00:00+01:00",
+          "scanner-id": "Scanner ID not defined.",
+          "performance-data": {
+            "time-period": 86400,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "elapsed-time": "-1"
+        }
+      ]
+    },
+    "hybrid-mw-structure-historical-performances": {
+      "historical-performance-data-list": [
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-19T22:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 86400,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T09:30:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T09:15:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T08:30:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T10:30:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T08:15:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-17T22:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 86400,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T07:30:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T07:15:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T10:15:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T08:45:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-21T22:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 86400,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T08:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T09:45:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T09:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-16T22:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 86400,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T06:45:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-18T22:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 86400,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T10:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T07:45:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-20T22:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 86400,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -37,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        },
+        {
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T07:00:00+00:00",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "time-period": 900,
+            "es": -1,
+            "unavailability": -1,
+            "ses": -1,
+            "rx-level-max": -36,
+            "rx-level-min": -36,
+            "rx-level-avg": -36,
+            "cses": -1
+          },
+          "history-data-id": "History Data ID not defined."
+        }
+      ],
+      "time-of-latest-change": "2023-10-23T10:45:00+00:00",
+      "number-of-historical-performance-sets": 22
+    },
+    "hybrid-mw-structure-configuration": {
+      "tdm-structure-kind": "e1",
+      "performance-monitoring-is-on": true,
+      "number-of-tdm-segments-to-be-reserved": 0,
+      "clearing-threshold-cross-alarms-is-on": false,
+      "g-826-threshold-cross-alarm-list": [
+        {
+          "g-826-value-kind": "hybrid-mw-structure-2-0:G_826_TYPE_NOT_SPECIFIED",
+          "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED",
+          "alarm-raising-threshold": -1,
+          "alarm-clearing-threshold": -1
+        }
+      ]
+    },
+    "hybrid-mw-structure-status": {
+      "performance-monitoring-is-up": true,
+      "segment-status-list": [
+        {
+          "segment-status-type-id": 1,
+          "segment-is-reserved-for-tdm": false,
+          "operational-status": "hybrid-mw-structure-2-0:OPERATIONAL_STATE_TYPE_ENABLED"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "wire-interface-2-0:wire-interface-capability": {
+    "configuration-of-rx-sync-preference-is-avail": false,
+    "wavelength-max-list": [
+      1310000
+    ],
+    "unidirectional-operation-is-avail": false,
+    "auto-pmd-negotiation-is-avail": false,
+    "eee-is-avail": false,
+    "wavelength-grid-min": -1,
+    "isolation-is-avail": false,
+    "supported-loop-back-kind-list": [
+      "wire-interface-2-0:LOOP_BACK_TYPE_NONE"
+    ],
+    "maintenance-timer-range": "0-172800",
+    "rxlevel-low-threshold": -30,
+    "rxlevel-high-threshold": -17,
+    "short-reach-mode-is-avail": false,
+    "auto-signal-ordering-is-avail": false,
+    "required-medium-kind": "wire-interface-2-0:MEDIUM_KIND_TYPE_SINGLE_MODE",
+    "temperature-low-threshold": -40,
+    "supported-pmd-kind-list": [
+      {
+        "pmd-name": "1000BASE-LX_FD",
+        "speed": "1000Mbit/s",
+        "duplex": "wire-interface-2-0:DUPLEX_TYPE_FULL_DUPLEX"
+      }
+    ],
+    "auto-negotiation-pmd-selection-is-avail": false,
+    "configuration-of-number-of-bip-errors-per-ses-is-avail": false,
+    "supported-signal-ordering-kind-list": [
+      "wire-interface-2-0:SIGNAL_ORDERING_KIND_TYPE_NOT_YET_DEFINED"
+    ],
+    "wavelength-min-list": [
+      1310000
+    ],
+    "mii-kind": "wire-interface-2-0:MII_KIND_TYPE_SFP_SFP_PLUS_SFP28",
+    "mdi-kind": "wire-interface-2-0:MDI_KIND_TYPE_LC",
+    "performance-monitoring-is-avail": false,
+    "temperature-high-threshold": 85,
+    "admin-shut-down-is-avail": true
+  }
+}

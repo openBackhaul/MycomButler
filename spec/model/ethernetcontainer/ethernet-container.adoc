@@ -1,0 +1,25 @@
+:sectnums:
+== Ethernet Container PAC Response
+
+=== MWDI Examples for Ethernet Container
+
+==== MWDI Rest Request
+.GET Request to recieve Ethernet Container PAC Response from MWDI
+[source, httprequest]
+----
+GET /rests/data/network-topology:network-topology/topology=topology-netconf/node=CO13306/yang-ext:mount/core-model-1-4:control-construct/logical-termination-point=LTP-ETC-TTP-2_LAN-2-RJ45/layer-protocol=LP-ETC-TTP-2_LAN-2-RJ45/ethernet-container-2-0:ethernet-container-pac
+----
+
+.MWDI Response for getting the Ethernet Container
+[%collapsible]
+====
+[source, json]
+----
+include::ethernet-container-pac.json[]
+----
+====
+==== MWDI Data Model for Ethernet Container
+
+=== Performance Data Model for Ethernet Container
+
+=== String to Integer (int64) necessary

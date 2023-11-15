@@ -1,0 +1,13 @@
+{
+  "pure-ethernet-structure-2-0:pure-ethernet-structure-configuration": {
+    "performance-monitoring-is-on": true,
+    "g-826-threshold-cross-alarm-list": [
+      {
+        "g-826-value-kind": "pure-ethernet-structure-2-0:G_826_TYPE_NOT_SPECIFIED",
+        "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED",
+        "alarm-raising-threshold": -1,
+        "alarm-clearing-threshold": -1
+      }
+    ]
+  }
+}

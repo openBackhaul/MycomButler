@@ -1,0 +1,84 @@
+{
+  "ethernet-container-2-0:ethernet-container-configuration": {
+    "loop-back-kind-on": "ethernet-container-2-0:LOOP_BACK_TYPE_NONE",
+    "maximum-burst-size": -1,
+    "cryptographic-key": "Cryptographic key not yet defined.",
+    "header-compression-kind": "no-compression",
+    "statistics-is-on": true,
+    "performance-monitoring-is-on": false,
+    "maintenance-timer": 900,
+    "fec-word-size": -1,
+    "fec-interleaver-kind": "ethernet-container-2-0:FEC_INTERLEAVER_KIND_TYPE_NOT_YET_DEFINED",
+    "fec-is-on": false,
+    "fec-interleaver-depth": "ethernet-container-2-0:FEC_INTERLEAVER_DEPTH_TYPE_NOT_YET_DEFINED",
+    "ingress-policing-profile": "",
+    "scheduler-profile": "SCHEDULER-PROFILE-1",
+    "interface-is-on": true,
+    "queue-behavior-list": [
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_CLASS_SELECTOR_QUEUE7",
+        "weighting": -1,
+        "scheduler-kind": "ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED",
+        "queue-depth": -1,
+        "dropping-behavior-kind": "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_CLASS_SELECTOR_QUEUE6",
+        "weighting": -1,
+        "scheduler-kind": "ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED",
+        "queue-depth": -1,
+        "dropping-behavior-kind": "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE1",
+        "weighting": -1,
+        "scheduler-kind": "ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED",
+        "queue-depth": -1,
+        "dropping-behavior-kind": "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE2",
+        "weighting": -1,
+        "scheduler-kind": "ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED",
+        "queue-depth": -1,
+        "dropping-behavior-kind": "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE3",
+        "weighting": -1,
+        "scheduler-kind": "ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED",
+        "queue-depth": -1,
+        "dropping-behavior-kind": "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE4",
+        "weighting": -1,
+        "scheduler-kind": "ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED",
+        "queue-depth": -1,
+        "dropping-behavior-kind": "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_BEST_EFFORT_QUEUE",
+        "weighting": -1,
+        "scheduler-kind": "ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED",
+        "queue-depth": -1,
+        "dropping-behavior-kind": "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_EXPEDITED_FORWARDING_QUEUE",
+        "weighting": -1,
+        "scheduler-kind": "ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED",
+        "queue-depth": -1,
+        "dropping-behavior-kind": "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+      }
+    ],
+    "interface-name": "LAN 2",
+    "explicit-congestion-notification-is-on": false,
+    "fec-redundancy-size": "ethernet-container-2-0:FEC_REDUNDANCY_SIZE_TYPE_NOT_YET_DEFINED",
+    "egress-shaping-is-on": false,
+    "qos-profile": "QOS-PROFILE-1",
+    "bundling-is-on": false,
+    "maximum-information-rate": -1,
+    "encryption-is-on": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "wire-interface-2-0:wire-interface-configuration": {
+    "auto-negotiation-pmd-list": [
+      "1000BASE-LX_FD"
+    ],
+    "loop-back-kind-on": "wire-interface-2-0:LOOP_BACK_TYPE_NONE",
+    "auto-pmd-negotiation-is-on": false,
+    "remote-wire-interface-name": "",
+    "interface-is-on": false,
+    "transceiver-configuration-list": [
+      {
+        "transceiver-index": 1,
+        "wavelength": 1310000,
+        "transceiver-is-on": true
+      }
+    ],
+    "fixed-pmd-kind": "1000BASE-LX_FD",
+    "short-reach-mode-is-on": false,
+    "auto-signal-ordering-is-on": false,
+    "isolation-is-on": false,
+    "number-of-bip-errors-per-ses": -1,
+    "eee-is-on": false,
+    "maintenance-timer": 900,
+    "interface-name": "LAN 8",
+    "rx-sync-preference": "wire-interface-2-0:RX_SYNC_PREFERENCE_TYPE_NOT_YET_DEFINED",
+    "unidirectional-operation-is-on": false,
+    "performance-monitoring-is-on": false,
+    "fixed-signal-ordering-kind": "wire-interface-2-0:SIGNAL_ORDERING_KIND_TYPE_NOT_YET_DEFINED"
+  }
+}

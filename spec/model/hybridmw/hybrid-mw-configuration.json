@@ -1,0 +1,16 @@
+{
+  "hybrid-mw-structure-2-0:hybrid-mw-structure-configuration": {
+    "tdm-structure-kind": "e1",
+    "performance-monitoring-is-on": true,
+    "number-of-tdm-segments-to-be-reserved": 0,
+    "clearing-threshold-cross-alarms-is-on": false,
+    "g-826-threshold-cross-alarm-list": [
+      {
+        "g-826-value-kind": "hybrid-mw-structure-2-0:G_826_TYPE_NOT_SPECIFIED",
+        "granularity-period": "hybrid-mw-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED",
+        "alarm-raising-threshold": -1,
+        "alarm-clearing-threshold": -1
+      }
+    ]
+  }
+}

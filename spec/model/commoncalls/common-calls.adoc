@@ -1,0 +1,36 @@
+:sectnums:
+== Common Calls
+
+=== MWDI example for getting all nodes with their status
+
+.GET Request to recieve all nodes with their status from MWDI
+[source, httprequest]
+----
+GET /rests/data/network-topology:network-topology/topology=topology-netconf?content=nonconfig&fields=node(node-id;netconf-node-topology:connection-status)
+----
+
+.MWDI Response for getting all nodes with their status
+[%collapsible]
+====
+[source, json]
+----
+include::get-all-node-ids-with-status.json[]
+----
+====
+
+=== MWDI example for getting all logical termination points from a node
+
+.GET Request to recieve all logical termination points from a node
+[source, httprequest]
+----
+GET /rests/data/network-topology:network-topology/topology=topology-netconf/node=CO13306/yang-ext:mount/core-model-1-4:control-construct?content=config&fields=logical-termination-point(uuid;name;layer-protocol(local-id;layer-protocol-name))
+----
+
+.MWDI Response for getting all termination points from a node
+[%collapsible]
+====
+[source, json]
+----
+include::logical-termination-points-from-node.json[]
+----
+====

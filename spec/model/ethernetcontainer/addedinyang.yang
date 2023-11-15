@@ -1,0 +1,61 @@
+    ---ContainerPerformanceType---
+    leaf oversized-frames-ingress {
+      type int32;
+      units "frame";
+      default "-1";
+      config false;
+      description
+        "The total number of frames received that were longer than 1518 octets (excluding framing bits, but including FCS octets) and were otherwise well formed.";
+    }
+    leaf undersized-frames-ingress {
+      type int32;
+      units "frame";
+      default "-1";
+      config false;
+      description
+        "The total number of frames received that were less than 64 octets long (excluding framing bits, but including FCS octets) and were otherwise well formed.";
+    }
+    leaf jabber-frames-ingress {
+      type int32;
+      units "frame";
+      default "-1";
+      config false;
+      description
+        "Number of jabber frames received on the interface. Jabber frames are typically defined as oversize frames which also have a bad CRC. Implementations may use slightly different definitions of what constitutes a jabber frame. Often indicative of a NIC hardware problem.";
+    }
+    leaf fragmented-frames-ingress {
+      type int64;
+      units "frame";
+      default "-1";
+      config false;
+      description
+        "The total number of frames received that were less than 64 octets in length (excluding framing bits but including FCS octets) and had either a bad Frame Check Sequence (FCS) with an integral number of octets (FCS Error) or a bad FCS with a non-integral number of octets (Alignment Error).";
+    }
+    leaf unknown-protocol-frames-input {
+      type int32;
+      units "frame";
+      default "-1";
+      config false;
+      description
+        "Total number of received frames that were transporting an unknown protocol.";
+    }
+    description
+      "Consolidated performance information of the Container.";
+  }
+
+
+
+      ---EthernetContainerCapability---
+      leaf scheduler-profile-configuration-is-avail {
+        type boolean;
+        default "false";
+        config false;
+        description
+          "true = Referencing a scheduler profile at the individual interface is supported.";
+      }
+      leaf-list supported-wred-protocol-list {
+        type protocol-layer-type;
+        default "PROTOCOL_LAYER_TYPE_NOT_YET_DEFINED";
+        description
+          "Lists the values, which could be chosen, while configuring WRED by associating a protocol with a drop precedence.";
+      }

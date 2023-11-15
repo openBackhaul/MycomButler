@@ -1,0 +1,16 @@
+{
+  "network-topology:topology": [
+    {
+      "node": [
+        {
+          "node-id": "CO02060",
+          "netconf-node-topology:connection-status": "connected"
+        },
+        {
+          "node-id": "513250012",
+          "netconf-node-topology:connection-status": "unable-to-connect"
+        }
+      ]
+    }
+  ]
+}

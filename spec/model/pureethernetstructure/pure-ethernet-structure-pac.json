@@ -1,0 +1,407 @@
+{
+  "pure-ethernet-structure-2-0:pure-ethernet-structure-pac": {
+    "pure-ethernet-structure-historical-performances": {
+      "number-of-historical-performance-sets": 22,
+      "time-of-latest-change": "2023-10-23T09:00:00+00:00",
+      "historical-performance-data-list": [
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T05:45:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T06:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T07:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T05:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T08:15:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T08:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T08:45:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T05:30:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T07:15:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T06:15:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-21T22:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -37,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 86400
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T07:30:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T06:30:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-19T22:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -37,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 86400
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-17T22:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -37,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 86400
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T05:15:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T08:30:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T07:45:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-20T22:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -37,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 86400
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-16T22:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -37,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 86400
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN",
+          "period-end-time": "2023-10-23T06:45:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -36,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 900
+          }
+        },
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-24-HOURS",
+          "period-end-time": "2023-10-18T22:00:00+00:00",
+          "history-data-id": "History Data ID not defined.",
+          "suspect-interval-flag": true,
+          "performance-data": {
+            "rx-level-max": -36,
+            "rx-level-avg": -36,
+            "rx-level-min": -37,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": 86400
+          }
+        }
+      ]
+    },
+    "pure-ethernet-structure-current-performance": {
+      "number-of-current-performance-sets": 1,
+      "current-performance-data-list": [
+        {
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED",
+          "elapsed-time": "-1",
+          "suspect-interval-flag": false,
+          "timestamp": "2010-11-20T14:00:00+01:00",
+          "performance-data": {
+            "rx-level-max": 99,
+            "rx-level-avg": 99,
+            "rx-level-min": 99,
+            "unavailability": -1,
+            "ses": -1,
+            "cses": -1,
+            "es": -1,
+            "time-period": -1
+          },
+          "scanner-id": "Scanner ID not defined."
+        }
+      ]
+    },
+    "pure-ethernet-structure-capability": {
+      "performance-monitoring-is-avail": true
+    },
+    "pure-ethernet-structure-status": {
+      "performance-monitoring-is-up": false,
+      "segment-status-list": [
+        {
+          "segment-status-type-id": 1,
+          "operational-status": "pure-ethernet-structure-2-0:OPERATIONAL_STATE_TYPE_ENABLED"
+        }
+      ]
+    },
+    "pure-ethernet-structure-configuration": {
+      "performance-monitoring-is-on": true,
+      "g-826-threshold-cross-alarm-list": [
+        {
+          "g-826-value-kind": "pure-ethernet-structure-2-0:G_826_TYPE_NOT_SPECIFIED",
+          "granularity-period": "pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED",
+          "alarm-raising-threshold": -1,
+          "alarm-clearing-threshold": -1
+        }
+      ]
+    }
+  }
+}

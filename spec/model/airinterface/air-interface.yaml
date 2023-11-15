@@ -1,0 +1,444 @@
+components: #ToDo compare again with UML
+  schemas:
+    AirInterface:
+      type: object
+      properties:
+        mount-name:
+          type: string
+          example: CO17691
+        logical-termination-point:
+          type: string
+          example: LTP-MWPS-TTP-7_ODU-A1
+        layer-protocol:
+          type: string
+          example: LP-MWPS-TTP-7_ODU-A1
+        air-interface-configuration:
+          $ref: '#/components/schemas/AirInterfaceConfiguration'
+        air-interface-capability:
+          $ref: '#/components/schemas/AirInterfaceCapability'
+        air-interface-historical-performances:
+          $ref: '#/components/schemas/AirInterfaceHistoricalPerformances'
+    AirInterfaceConfiguration:
+      type: object
+      properties:
+        adaptive-modulation-is-on:
+          type: boolean
+          example: true
+        tx-frequency:
+          type: integer
+          example: 81000000
+        transmission-mode-max:
+          type: string
+          example: 782.1.1.8.22
+        atpc-thresh-upper:
+          type: integer
+          example: 99
+        atpc-tx-power-min:
+          type: integer
+          example: -10
+        xlts-threshold-cross-alarm-list:
+          type: array
+          items:
+            type: object
+            properties:
+              level-threshold-second-kind:
+                type: string
+                example: air-interface-2-0:XLEVEL_THRESHOLD_SECOND_KIND_TYPE_RLTS
+              granularity-period:
+                type: string
+                example: air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+              xlts-threshold-cross-alarm-definition-number:
+                type: integer
+                example: 1
+              xlts-level:
+                type: integer
+                example: 98
+              amount-of-seconds:
+                type: integer
+                example: 180
+        xpic-is-on:
+          type: boolean
+          example: false
+        auto-freq-select-is-on:
+          type: boolean
+          example: false
+        cryptographic-key:
+          type: string
+          example: Cryptographic key not yet defined.
+        maintenance-timer:
+          type: integer
+          example: -1
+        receiver-is-on:
+          type: boolean
+          example: true,
+        encryption-is-on:
+          type: boolean
+          example: false
+        transmitted-radio-signal-id:
+          type: object
+          properties:
+            alphanumeric-radio-signal-id:
+              type: string
+              example: 1234A,
+            numeric-radio-signal-id:
+              type: integer
+              example: -1
+        alic-is-on:
+          type: boolean
+          example: false
+        auto-freq-select-range:
+          type: integer
+          example: -1
+        acm-threshold-cross-alarm-list:
+          type: array
+          items:
+            type: object
+            properties:
+              acm-threshold-cross-alarm-definition-number:
+                type: integer
+                example: 0
+              granularity-period:
+                type: string
+                example: air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+              seconds-for-raising-alarm:
+                type: integer
+                example: 180
+              seconds-for-clearing-alarm:
+                type: integer
+                example: 20
+              transmission-mode:
+                type: string
+                example: 782.1.1.8.3
+        remote-air-interface-name:
+          type: string
+          example: Air interface ID at the remote site not yet defined
+        performance-monitoring-is-on:
+          type: boolean
+          example: true
+        power-is-on:
+          type: boolean
+          example: true
+        mimo-is-on:
+          type: boolean
+          example: false
+        atpc-thresh-lower:
+          type: integer
+          example: -30
+        transmission-mode-min:
+          type: string
+          example: 782.1.1.8.3
+        air-interface-name:
+          type: string
+          example: 513559991
+        atpc-is-on:
+          type: boolean
+          example: true
+        duplex-distance:
+          type: integer
+          example: -1
+        loop-back-kind-on:
+          type: string
+          example: "air-interface-2-0:LOOP_BACK_TYPE_NONE", #ToDo mapping?
+        rx-frequency:
+          type: integer
+          example: -1
+        transmitter-is-on:
+          type: boolean
+          example: true
+        tx-power:
+          type: integer
+          example: 18
+        expected-radio-signal-id":
+          type: object
+          properties:
+            alphanumeric-radio-signal-id":
+              type: string
+              example: 1234B
+            numeric-radio-signal-id:
+              type: integer
+              example: -1
+        modulation-is-on:
+          type: boolean
+          example: true
+    AirInterfaceCapability:
+      type: object
+      properties:
+        type-of-equipment:
+          tpye: string
+          example: UKL 501 57/21H R2A CXP9026371_3_R21A687_2-20.def R21A687
+        receiver-on-off-is-avail:
+          type: boolean
+          example: false
+        clearing-threshold-cross-alarms-is-avail:
+          type: boolean
+          example: false,
+        duplex-distance-is-freely-configurable:
+          type: boolean
+          example: false
+        rx-frequency-min:
+          type: integer
+          example: 71000000
+        tx-frequency-max:
+          type: integer
+          example: 86000000
+        acm-threshold-cross-alarms-is-avail:
+          type: boolean
+          example: true
+        maintenance-timer-range:
+          type: string
+          example: Range of the maintenance timer not yet defined.
+        transmission-mode-list:
+          type: array
+          items:
+            type: object
+            properties:
+              transmission-mode-name:
+                type: string
+                example: "782.1.1.10.10"
+              symbol-rate-reduction-factor:
+                type: integer
+                example: 1
+              channel-bandwidth:
+                type: integer
+                example: 1500000
+              xpic-is-avail:
+                type: boolean
+                example: false
+              supported-as-fixed-configuration:
+                type: boolean
+                example: true
+              tx-power-min:
+                type: integer
+                example: -10
+              am-downshift-level:
+                type: integer
+                example: 99
+              modulation-scheme:
+                type: integer
+                example: 16
+              code-rate:
+                type: integer
+                example: 87
+              am-upshift-level:
+                type: integer
+                example: 99
+              rx-threshold:
+                type: integer
+                example: 99
+              modulation-scheme-name-at-lct:
+                type: string
+                example: 16 QAM
+              tx-power-max:
+                type: integer
+                example: 18
+              transmission-mode-rank:
+                type: integer
+                example: 4550
+        duplex-distance-list:
+          type: array
+          items:
+            type: integer
+            example: -1
+        rx-frequency-max:
+          type: integer
+          example: 76000000
+        direction-of-acm-performance-values:
+          type: string
+          example: air-interface-2-0:DIRECTION_TYPE_NONE
+        atpc-range:
+          type: integer
+          example: 28
+        auto-freq-select-is-avail:
+          type: boolean
+          example: false
+        performance-monitoring-is-avail:
+          type: boolean
+          example: true
+        supported-radio-signal-id-length:
+          type: integer
+          example: 30
+        atpc-is-avail:
+          type: boolean
+          example: true
+        supported-loop-back-kind-list:
+          type: array
+          items:
+            type: string
+            example: air-interface-2-0:LOOP_BACK_TYPE_NONE
+        adaptive-modulation-is-avail:
+          type: boolean
+          exmample: true
+        tx-frequency-min:
+          type: integer
+          example: 81000000
+        expected-equals-transmitted-radio-signal-id:
+          type: boolean
+          example: false,
+        supported-radio-signal-id-datatype:
+          type: string
+          example: air-interface-2-0:RADIO_SIGNAL_ID_DATATYPE_TYPE_STRING
+        encryption-is-avail": false
+    AirInterfaceHistoricalPerformances:
+      type: object
+      properties:
+        time-of-latest-change:
+          type: string
+          example: 2023-11-15T13:00:00+01:00,
+        number-of-historical-performance-sets:
+          type: integer
+          example: 126
+        historical-performance-data-list:
+          type: array
+          items:
+            type: object
+            properties:
+              granularity-period:
+                type: string
+                example: air-interface-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+              period-end-time:
+                type: string
+                example: 2023-11-15T02:30:00+01:00
+              suspect-interval-flag:
+                type: boolean
+                example: false
+              history-data-id:
+                type: string
+                example: History Data ID not defined.
+              performance-data:
+                type: object
+                properties:
+                  ses:
+                    type: integer
+                    example: 0
+                  rx-level-max:
+                    type: integer
+                    example: -30
+                  xpd-max:
+                    type: integer
+                    example: -99,
+                  rf-temp-max:
+                    type: integer
+                    example: -99,
+                  tx-level-max:
+                    type: integer
+                    example: 9
+                  snir-min:
+                    type: integer
+                    example: -99
+                  snir-avg:
+                    type: integer
+                    example: -99
+                  unavailability:
+                    type: integer
+                    example: 0
+                  cses:
+                    type: integer
+                    example: -1
+                  es:
+                    type: integer
+                    example: 0
+                  rf-temp-min:
+                    type: integer
+                    example: -99
+                  rf-temp-avg:
+                    type: integer
+                    example: -99
+                  time-xstates-list:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        time:
+                          type: integer
+                          example: 0
+                        transmission-mode:
+                          type: string
+                          example: 782.1.1.8.27 #ToDO Mapping from capailities
+                        time-xstate-sequence-number:
+                          type: integer
+                          example: 26,
+                  rx-level-min:
+                    type: integer
+                    example: -30
+                  rx-level-avg:
+                    type: integer
+                    example: 99
+                  xpd-min:
+                    type: integer
+                    example: -99,
+                  xpd-avg:
+                    type: integer
+                    example: -99
+                  tx-level-min:
+                    type: integer
+                    example: 9
+                  tx-level-avg:
+                    type: integer
+                    example: 99
+                  time-period:
+                    type: integer
+                    example: -1
+                  snir-max:
+                    type: integer
+                    example: -99
+                  defect-blocks-sum:
+                    type: integer
+                    example: -1
+
+
+
+        time-xstates-list:
+          type: array
+          items:
+            $ref: '#/components/schemas/TransMissonMode'
+    TransMissonMode: #Todo delete or make common object with capability
+      type: object
+      properties:
+        time-xstate-sequence-number:
+          type: integer
+          example: 1
+        time:
+          type: integer
+          example: 0
+        transmission-mode-name:
+          type: string
+          example: 28006
+        symbol-rate-reduction-factor:
+          type: integer
+          example: 1
+        channel-bandwidth:
+          type: integer
+          example: 28000
+        xpic-is-avail:
+          type: boolean
+          example: true
+        supported-as-fixed-configuration:
+          type: boolean
+          example: true
+        tx-power-min:
+          type: integer
+          example: 4
+        am-downshift-level:
+          type: integer
+          example: -69
+        modulation-scheme:
+          type: integer
+          example: 64
+        code-rate:
+          type: integer
+          example: 90
+        am-upshift-level:
+          type: integer
+          example: -67
+        rx-threshold:
+          type: integer
+          example: -73,
+        modulation-scheme-name-at-lct:
+          type: string
+          example: 64QAM
+        transmission-mode-rank:
+          type: integer
+          example: 28006
+        tx-power-max:
+          type: integer
+          example: 24

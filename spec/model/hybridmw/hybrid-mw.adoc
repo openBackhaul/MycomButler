@@ -1,0 +1,20 @@
+:sectnums:
+== Hybrid Microwave Structure
+
+=== MWDI Examples for Hybid MW Structure
+
+
+.GET Hybid MW Structure from MWDI
+[source, httprequest]
+----
+GET /rests/data/network-topology:network-topology/topology=topology-netconf/node=CO17695/yang-ext:mount/core-model-1-4:control-construct/logical-termination-point=LTP-MWS-TTP-3-1/layer-protocol=LP-MWS-TTP-3-1/hybrid-mw-structure-2-0:hybrid-mw-structure-pac
+----
+
+.MWDI Hybrid MW Structure PAC Response
+[%collapsible]
+====
+[source, json]
+----
+include::hybrid-mw-structure-pac.json[]
+----
+====

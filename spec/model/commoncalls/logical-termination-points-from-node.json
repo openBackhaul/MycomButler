@@ -1,0 +1,268 @@
+{
+  "core-model-1-4:control-construct": {
+    "logical-termination-point": [
+      {
+        "uuid": "LTP-MWS-2_LAN-7-SFP",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "2_LAN-7-SFP"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-MWS-2_LAN-7-SFP",
+            "layer-protocol-name": "pure-ethernet-structure-2-0:LAYER_PROTOCOL_NAME_TYPE_PURE_ETHERNET_STRUCTURE_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-MWS-2_LAN-4-RJ45",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "2_LAN-4-RJ45"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-MWS-2_LAN-4-RJ45",
+            "layer-protocol-name": "pure-ethernet-structure-2-0:LAYER_PROTOCOL_NAME_TYPE_PURE_ETHERNET_STRUCTURE_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-MWS-8_ODU-B",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "8_ODU-B"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-MWS-8_ODU-B",
+            "layer-protocol-name": "hybrid-mw-structure-2-0:LAYER_PROTOCOL_NAME_TYPE_HYBRID_MW_STRUCTURE_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-ETC-TTP-1_LAN-1-XG-SFP",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "1_LAN-1-XG-SFP"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-ETC-TTP-1_LAN-1-XG-SFP",
+            "layer-protocol-name": "ethernet-container-2-0:LAYER_PROTOCOL_NAME_TYPE_ETHERNET_CONTAINER_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-MAC-TTP-1_LAN-1-XG-SFP",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "1_LAN-1-XG-SFP"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-MAC-TTP-1_LAN-1-XG-SFP",
+            "layer-protocol-name": "mac-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_MAC_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-ETC-TTP-2_LAN-7-SFP",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "2_LAN-7-SFP"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-ETC-TTP-2_LAN-7-SFP",
+            "layer-protocol-name": "ethernet-container-2-0:LAYER_PROTOCOL_NAME_TYPE_ETHERNET_CONTAINER_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-ETC-TTP-RLAG-2",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "RLAG-2"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-ETC-TTP-RLAG-2",
+            "layer-protocol-name": "ethernet-container-2-0:LAYER_PROTOCOL_NAME_TYPE_ETHERNET_CONTAINER_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-ETY-TTP-2_LAN-5-SFP",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "2_LAN-5-SFP"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-ETY-TTP-2_LAN-5-SFP",
+            "layer-protocol-name": "wire-interface-2-0:LAYER_PROTOCOL_NAME_TYPE_WIRE_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-VLAN-TTP-RLAG-1",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-VLAN-TTP-RLAG-1",
+            "layer-protocol-name": "vlan-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_VLAN_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-ETY-TTP-1_LAN-1-XG-SFP",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "1_LAN-1-XG-SFP"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-ETY-TTP-1_LAN-1-XG-SFP",
+            "layer-protocol-name": "wire-interface-2-0:LAYER_PROTOCOL_NAME_TYPE_WIRE_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-MWPS-TTP-8_ODU-B",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "8_ODU-B"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-MWPS-TTP-8_ODU-B",
+            "layer-protocol-name": "air-interface-2-0:LAYER_PROTOCOL_NAME_TYPE_AIR_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-MWPS-TTP-8_ODU-A",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "8_ODU-A"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-MWPS-TTP-8_ODU-A",
+            "layer-protocol-name": "air-interface-2-0:LAYER_PROTOCOL_NAME_TYPE_AIR_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-VLAN-TTP-2_LAN-7-SFP",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "2_LAN-7-SFP"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-VLAN-TTP-2_LAN-7-SFP",
+            "layer-protocol-name": "vlan-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_VLAN_LAYER"
+          }
+        ]
+      },
+      {
+        "uuid": "LTP-MAC-TTP-2_LAN-3-RJ45",
+        "name": [
+          {
+            "value-name": "externalLabel",
+            "value": ""
+          },
+          {
+            "value-name": "ltpName",
+            "value": "2_LAN-3-RJ45"
+          }
+        ],
+        "layer-protocol": [
+          {
+            "local-id": "LP-MAC-TTP-2_LAN-3-RJ45",
+            "layer-protocol-name": "mac-interface-1-0:LAYER_PROTOCOL_NAME_TYPE_MAC_LAYER"
+          }
+        ]
+      }
+    ]
+  }
+}

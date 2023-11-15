@@ -1,0 +1,346 @@
+components: #ToDo compare again with UML
+  schemas:
+    EthernetContainer:
+      type: object
+      properties:
+        mount-name:
+          type: string
+          example: CO17691
+        logical-termination-point:
+          type: string
+          example: LTP-MWPS-TTP-7_ODU-A1
+        layer-protocol:
+          type: string
+          example: LP-MWPS-TTP-7_ODU-A1
+        ethernet-container-configuration:
+          $ref: '#/components/schemas/EthernetContainerConfiguration'
+        ethernet-container-capability:
+          $ref: '#/components/schemas/EthernetContainerCapability'
+        ethernet-container-historical-performances:
+          $ref: '#/components/schemas/EthernetContainerHistoricalPerformances'
+    EthernetContainerConfiguration:
+      type: object
+      properties:
+        loop-back-kind-on:
+          type: string
+          example: ethernet-container-2-0:LOOP_BACK_TYPE_NONE
+        maximum-burst-size:
+          type: integer
+          example: -1
+        cryptographic-key:
+          type: string
+          example: Cryptographic key not yet defined.
+        header-compression-kind":
+          type: string
+          example: no-compression
+        statistics-is-on:
+          type: boolean
+          example: true
+        performance-monitoring-is-on:
+          type: boolean
+          example: false
+        maintenance-timer:
+          type: integer
+          example: 900,
+        fec-word-size:
+          type: integer
+          example: -1
+        fec-interleaver-kind:
+          type: string
+          example: ethernet-container-2-0:FEC_INTERLEAVER_KIND_TYPE_NOT_YET_DEFINED
+        fec-is-on:
+          type: boolean
+          example: false
+        fec-interleaver-depth:
+          type: string
+          example: ethernet-container-2-0:FEC_INTERLEAVER_DEPTH_TYPE_NOT_YET_DEFINED
+        ingress-policing-profile:
+          type: string
+          example: "",
+        scheduler-profile:
+          type: string
+          example: SCHEDULER-PROFILE-1
+        interface-is-on:
+          type: boolean
+          example: true
+        queue-behavior-list:
+          type: array
+          items:
+            type: object
+            properties:
+              queue-name:
+                type: string
+                example: ethernet-container-2-0:QUEUE_NAME_TYPE_CLASS_SELECTOR_QUEUE7
+              weighting:
+                type: integer
+                example: -1
+              scheduler-kind:
+                type: string
+                example: ethernet-container-2-0:SCHEDULER_KIND_TYPE_NOT_YET_DEFINED
+              queue-depth:
+                type: integer
+                example: -1
+              dropping-behavior-kind:
+                type: string
+                example: ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL
+        interface-name:
+          type: string
+          example: LAN 2
+        explicit-congestion-notification-is-on:
+          type: boolean
+          example: false
+        fec-redundancy-size:
+          type: string
+          example: ethernet-container-2-0:FEC_REDUNDANCY_SIZE_TYPE_NOT_YET_DEFINED
+        egress-shaping-is-on:
+          type: boolean
+          example: false
+        qos-profile:
+          type: string
+          example: QOS-PROFILE-1
+        bundling-is-on:
+          type: boolean
+          example: false
+        maximum-information-rate:
+          type: integer
+          example: -1
+        encryption-is-on:
+          type: boolean
+          example: false
+    EthernetContainerCapability:
+      type: object
+      properties:
+        supported-maximum-information-rate-list:
+          type: array
+          items:
+            type: integer
+            example: -1
+        scheduler-kind-configuration-is-avail:
+          type: boolean
+          example: false
+        bundling-is-avail:
+          type: boolean
+          example: false
+        available-queue-list:
+          type: array
+          items:
+            type: object
+            properties:
+              queue-name:
+                type: string
+                example: ethernet-container-2-0:QUEUE_NAME_TYPE_EXPEDITED_FORWARDING_QUEUE
+              available-drop-precedence-kind-list:
+                type: array
+                items:
+                  type: string
+                  example: ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW
+              available-scheduling-kind-list:
+                type: array
+                items:
+                  type: string
+                  example: ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR
+              supported-queue-depth-list:
+                type: array
+                items:
+                  type: integer
+                  example: -1
+              available-dropping-behavior-kind-list:
+                type: array
+                items:
+                  type: string
+                  example: ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED
+              wred-profile-per-drop-precedence-is-available:
+                type: boolean
+                example: true
+        fec-is-avail:
+          type: boolean
+          example: false
+        supported-fec-interleaver-depth-list:
+          type: array
+          items:
+            type: string
+            example: ethernet-container-2-0:FEC_INTERLEAVER_DEPTH_TYPE_NOT_YET_DEFINED
+        supported-maximum-burst-size-list:
+          type: array
+          items:
+            type: integer
+            example: -1
+        egress-shaping-is-avail:
+          type: boolean
+          example: false
+        supported-loop-back-kind-list:
+          type: array
+          items:
+            type: string
+            example: ethernet-container-2-0:LOOP_BACK_TYPE_BACK_TO_LOCAL
+        bundling-group-size-max:
+          type: integer
+          example: -1
+        admin-shut-down-is-avail:
+          type: boolean
+          example: true
+        fec-word-size-max:
+          type: integer
+          example: -1
+        explicit-congestion-notification-is-avail:
+          type: boolean
+          example: false
+        performance-monitoring-is-avail:
+          type: boolean
+          example: true
+        wred-profile-configuration-is-avail:
+          type: boolean
+          example: false
+        maintenance-timer-range:
+          type: string
+          example: 0-172800
+        encryption-is-avail:
+          type: boolean
+          example: false
+        supported-fec-redundancy-size-list:
+          type: array
+          items:
+            type: string
+            example: ethernet-container-2-0:FEC_REDUNDANCY_SIZE_TYPE_NOT_YET_DEFINED
+        supported-header-compression-kind-list:
+          type: array
+          items:
+            type: object
+            properties:
+              header-compression-name:
+                type: string
+                example: no-compression
+              header-compression-mode:
+                type: string
+                example: ethernet-container-2-0:HEADER_COMPRESSION_MODE_TYPE_NOT_YET_DEFINED
+
+              compressed-protocol-layer-list:
+                type: array
+                items:
+                  type: string
+                  example: ethernet-container-2-0:PROTOCOL_LAYER_TYPE_NOT_YET_DEFINED
+              mpls-payload-kind-list:
+                type: array
+                items:
+                  type: string
+                  example: ethernet-container-2-0:MPLS_PAYLOAD_KIND_TYPE_NOT_YET_DEFINED
+              compressed-header-length:
+                type: integer
+                example: -1
+        dropping-behavior-configuration-is-avail:
+          type: boolean
+          example: false
+        ingress-policing-is-avail:
+          type: boolean
+          example: true
+        supported-fec-interleaver-kind-list:
+          type: array
+          items:
+            type: string
+            example: ethernet-container-2-0:FEC_INTERLEAVER_KIND_TYPE_NOT_YET_DEFINED
+        support-of-management-frames-without-preamble-is-avail:
+          type: boolean
+          example: false
+        statistics-is-avail:
+          type: boolean
+          example: true
+    EthernetContainerHistoricalPerformances:
+      type: object
+      properties:
+        time-of-latest-change:
+          type: string
+          example: 2023-11-15T13:00:00+01:00,
+        number-of-historical-performance-sets:
+          type: integer
+          example: 126
+        historical-performance-data-list:
+          type: array
+          items:
+            type: object
+            properties:
+              granularity-period:
+                type: string
+                example: ethernet-container-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+              period-end-time:
+                type: string
+                example: 2023-11-15T02:30:00+01:00
+              history-data-id:
+                type: string
+                example: History Data ID not defined.
+              suspect-interval-flag:
+                type: boolean
+                example: false
+              performance-data:
+                type: object
+                properties:
+                  max-bytes-per-second-output:
+                    type: integer
+                    example: -1,
+                  forwarded-frames-output: #ToDo String -> Int mapping
+                    type: integer
+                    example: -1
+                  broadcast-frames-input:
+                    type: integer
+                    example: 0
+                  dropped-frames-input:
+                    type: integer
+                    example: 0
+                  total-bytes-output: #ToDo String -> Int mapping
+                    type: integer
+                    example: -1
+                  multicast-frames-output:
+                    type: integer
+                    example: -1
+                  errored-frames-input:
+                    type: integer
+                    example: 0
+                  total-frames-output: #ToDo String -> Int mapping
+                    type: integer
+                    example: -1
+                  forwarded-frames-input: #ToDo String -> Int mapping
+                    type: integer
+                    example: -1
+                  multicast-frames-input:
+                    type: integer
+                    example: 0,
+                  fragmented-frames-input:
+                    type: integer
+                    example: 0
+                  unicast-frames-input: #ToDo String -> Int mapping
+                    type: integer
+                    example: -1,
+                  unicast-frames-output: #ToDo String -> Int mapping
+                    type: integer
+                    example: -1
+                  time-period:
+                    type: integer
+                    example: 86400
+                  total-frames-input: #ToDo String -> Int mapping
+                    type: integer
+                    example: 0
+                  errored-frames-output: #ToDo String -> Int mapping
+                    type: integer
+                    example: -1
+                  total-bytes-input": #ToDo String -> Int mapping
+                    type: integer
+                    example: 0
+                  broadcast-frames-output:
+                    type: integer
+                    example: -1
+                  dropped-frames-output:
+                    type: integer
+                    example: -1
+                  queue-utilization-list: #ToDO Mapping to Capabilites
+                    type: array
+                    items:
+                      type: object
+                      example:
+                        queue-name:
+                          type: string
+                          example: ethernet-container-2-0:QUEUE_NAME_TYPE_BEST_EFFORT_QUEUE
+                        max-queue-length:
+                          type: integer
+                          example: -1
+                          avg-queue-length:
+                            type: integer
+                            example: -1

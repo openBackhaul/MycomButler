@@ -1,0 +1,205 @@
+{
+  "ethernet-container-2-0:ethernet-container-capability": {
+    "supported-maximum-information-rate-list": [
+      -1
+    ],
+    "scheduler-kind-configuration-is-avail": false,
+    "bundling-is-avail": false,
+    "available-queue-list": [
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_EXPEDITED_FORWARDING_QUEUE",
+        "available-drop-precedence-kind-list": [
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+        ],
+        "available-scheduling-kind-list": [
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+        ],
+        "supported-queue-depth-list": [
+          -1
+        ],
+        "available-dropping-behavior-kind-list": [
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+        ],
+        "wred-profile-per-drop-precedence-is-available": true
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_CLASS_SELECTOR_QUEUE7",
+        "available-drop-precedence-kind-list": [
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+        ],
+        "available-scheduling-kind-list": [
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+        ],
+        "supported-queue-depth-list": [
+          -1
+        ],
+        "available-dropping-behavior-kind-list": [
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+        ],
+        "wred-profile-per-drop-precedence-is-available": true
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_CLASS_SELECTOR_QUEUE6",
+        "available-drop-precedence-kind-list": [
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+        ],
+        "available-scheduling-kind-list": [
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+        ],
+        "supported-queue-depth-list": [
+          -1
+        ],
+        "available-dropping-behavior-kind-list": [
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+        ],
+        "wred-profile-per-drop-precedence-is-available": true
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE4",
+        "available-drop-precedence-kind-list": [
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+        ],
+        "available-scheduling-kind-list": [
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+        ],
+        "supported-queue-depth-list": [
+          -1
+        ],
+        "available-dropping-behavior-kind-list": [
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+        ],
+        "wred-profile-per-drop-precedence-is-available": true
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE2",
+        "available-drop-precedence-kind-list": [
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+        ],
+        "available-scheduling-kind-list": [
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+        ],
+        "supported-queue-depth-list": [
+          -1
+        ],
+        "available-dropping-behavior-kind-list": [
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+        ],
+        "wred-profile-per-drop-precedence-is-available": true
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE3",
+        "available-drop-precedence-kind-list": [
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+        ],
+        "available-scheduling-kind-list": [
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+        ],
+        "supported-queue-depth-list": [
+          -1
+        ],
+        "available-dropping-behavior-kind-list": [
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+        ],
+        "wred-profile-per-drop-precedence-is-available": true
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_ASSURED_FORWARDING_QUEUE1",
+        "available-drop-precedence-kind-list": [
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+        ],
+        "available-scheduling-kind-list": [
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+        ],
+        "supported-queue-depth-list": [
+          -1
+        ],
+        "available-dropping-behavior-kind-list": [
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+        ],
+        "wred-profile-per-drop-precedence-is-available": true
+      },
+      {
+        "queue-name": "ethernet-container-2-0:QUEUE_NAME_TYPE_BEST_EFFORT_QUEUE",
+        "available-drop-precedence-kind-list": [
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_LOW",
+          "ethernet-container-2-0:DROP_PRECEDENCE_TYPE_MEDIUM"
+        ],
+        "available-scheduling-kind-list": [
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_WRR",
+          "ethernet-container-2-0:SCHEDULER_KIND_TYPE_STRICT"
+        ],
+        "supported-queue-depth-list": [
+          -1
+        ],
+        "available-dropping-behavior-kind-list": [
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_WRED",
+          "ethernet-container-2-0:DROPPING_BEHAVIOR_KIND_TYPE_DROP_TAIL"
+        ],
+        "wred-profile-per-drop-precedence-is-available": true
+      }
+    ],
+    "fec-is-avail": false,
+    "supported-fec-interleaver-depth-list": [
+      "ethernet-container-2-0:FEC_INTERLEAVER_DEPTH_TYPE_NOT_YET_DEFINED"
+    ],
+    "supported-maximum-burst-size-list": [
+      -1
+    ],
+    "egress-shaping-is-avail": false,
+    "supported-loop-back-kind-list": [
+      "ethernet-container-2-0:LOOP_BACK_TYPE_BACK_TO_LOCAL"
+    ],
+    "bundling-group-size-max": -1,
+    "admin-shut-down-is-avail": true,
+    "fec-word-size-max": -1,
+    "explicit-congestion-notification-is-avail": false,
+    "performance-monitoring-is-avail": true,
+    "wred-profile-configuration-is-avail": false,
+    "maintenance-timer-range": "0-172800",
+    "encryption-is-avail": false,
+    "supported-fec-redundancy-size-list": [
+      "ethernet-container-2-0:FEC_REDUNDANCY_SIZE_TYPE_NOT_YET_DEFINED"
+    ],
+    "supported-header-compression-kind-list": [
+      {
+        "header-compression-name": "no-compression",
+        "header-compression-mode": "ethernet-container-2-0:HEADER_COMPRESSION_MODE_TYPE_NOT_YET_DEFINED",
+        "compressed-protocol-layer-list": [
+          "ethernet-container-2-0:PROTOCOL_LAYER_TYPE_NOT_YET_DEFINED"
+        ],
+        "mpls-payload-kind-list": [
+          "ethernet-container-2-0:MPLS_PAYLOAD_KIND_TYPE_NOT_YET_DEFINED"
+        ],
+        "compressed-header-length": -1
+      }
+    ],
+    "dropping-behavior-configuration-is-avail": false,
+    "ingress-policing-is-avail": true,
+    "supported-fec-interleaver-kind-list": [
+      "ethernet-container-2-0:FEC_INTERLEAVER_KIND_TYPE_NOT_YET_DEFINED"
+    ],
+    "support-of-management-frames-without-preamble-is-avail": false,
+    "statistics-is-avail": true
+  }
+}

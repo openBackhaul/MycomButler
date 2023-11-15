@@ -1,0 +1,22 @@
+{
+  "wire-interface-2-0:wire-interface-historical-performances": {
+    "historical-performance-data-list": [
+      {
+        "granularity-period": "wire-interface-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED",
+        "period-end-time": "2010-11-20T14:00:00+01:00",
+        "performance-data": {
+          "es": -1,
+          "ses": -1,
+          "low-power-idle-receiver-ms": -1,
+          "rx-collisions": -1,
+          "low-power-idle-transmitter-ms": -1,
+          "symbol-error-during-carrier": -1
+        },
+        "history-data-id": "History Data ID not defined.",
+        "suspect-interval-flag": false
+      }
+    ],
+    "number-of-historical-performance-sets": -1,
+    "time-of-latest-change": "2010-11-20T14:00:00+01:00"
+  }
+}
