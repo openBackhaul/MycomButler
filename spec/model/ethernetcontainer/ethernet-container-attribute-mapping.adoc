@@ -1,0 +1,305 @@
+= Air-Interface Attribute Mapping
+
+Following table represent the files for air-interface data. "mount-name" is a input parameter or the so called "deviceId" from the sequenz diagram.
+The table entry "update-time" represents the time when the whole data collection is started.
+
+To make the attribute mapping more readable the prefix "core-model-1-4:logical-termination-point" is not present. Examples:
+"core-model-1-4:logical-termination-point.uuid" is represented as "uuid" +
+"core-model-1-4:logical-termination-point.layer-protocol.local-id" is represented as "layer-protocol.local-id" +
+
+
+== Configuration (layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration)
+[cols="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"]
+|===
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|update-time
+|loop-back-kind-on
+|maximum-burst-size
+|cryptographic-key
+|header-compression-kind
+|statistics-is-on
+|performance-monitoring-is-on
+|maintenance-timer
+|fec-word-size
+|fec-interleaver-kind
+|fec-is-on
+|fec-interleaver-depth
+|ingress-policing-profile
+|scheduler-profile
+|interface-is-on
+|interface-name
+|explicit-congestion-notification-is-on
+|fec-redundancy-size
+|egress-shaping-is-on
+|qos-profile
+|bundling-is-on
+|maximum-information-rate
+|encryption-is-on
+
+
+
+|mount-name
+|uuid
+|layer-protocol.local-id
+|update-time
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.loop-back-kind-on
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.maximum-burst-size
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.cryptographic-key
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.header-compression-kind
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.statistics-is-on
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.performance-monitoring-is-on
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.maintenance-timer
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.fec-word-size
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.fec-interleaver-kind
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.fec-is-on
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.fec-interleaver-depth
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.ingress-policing-profile
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.scheduler-profile
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.interface-is-on
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.interface-name
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.explicit-congestion-notification-is-on
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.fec-redundancy-size
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.egress-shaping-is-on
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.qos-profile
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.bundling-is-on
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.maximum-information-rate
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-configuration.encryption-is-on
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+00:00
+|ethernet-container-2-0:LOOP_BACK_TYPE_NONE
+|-1
+|Cryptographic key not yet defined.
+|no-compression
+|true
+|false
+|900
+|-1
+|ethernet-container-2-0:FEC_INTERLEAVER_KIND_TYPE_NOT_YET_DEFINED
+|false
+|ethernet-container-2-0:FEC_INTERLEAVER_DEPTH_TYPE_NOT_YET_DEFINED
+|
+|SCHEDULER-PROFILE-1
+|true
+|LAN 2
+|false
+|ethernet-container-2-0:FEC_REDUNDANCY_SIZE_TYPE_NOT_YET_DEFINED
+|false
+|QOS-PROFILE-1
+|false
+|-1
+|false
+
+|===
+
+
+=== Following list attributes are not mapped:
+queue-behavior-list
+
+== Capabilities (layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability)
+[cols="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"]
+|===
+
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|update-time
+|scheduler-kind-configuration-is-avail
+|bundling-is-avail
+|fec-is-avail
+|egress-shaping-is-avail
+|bundling-group-size-max
+|admin-shut-down-is-avail
+|fec-word-size-max
+|explicit-congestion-notification-is-avail
+|performance-monitoring-is-avail
+|wred-profile-configuration-is-avail
+|maintenance-timer-range
+|encryption-is-avail
+|dropping-behavior-configuration-is-avail
+|ingress-policing-is-avail
+|support-of-management-frames-without-preamble-is-avail
+|statistics-is-avail
+
+
+|mount-name
+|uuid
+|layer-protocol.local-id
+|update-time
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.scheduler-kind-configuration-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.bundling-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.fec-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.egress-shaping-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.bundling-group-size-max
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.admin-shut-down-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.fec-word-size-max
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.explicit-congestion-notification-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.performance-monitoring-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.wred-profile-configuration-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.maintenance-timer-range
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.encryption-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.dropping-behavior-configuration-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.ingress-policing-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.support-of-management-frames-without-preamble-is-avail
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-capability.statistics-is-avail
+
+
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+00:00
+|false
+|false
+|false
+|false
+|-1
+|true
+|-1
+|false
+|true
+|false
+|0-172800
+|false
+|false
+|true
+|false
+|true
+
+|===
+
+=== Following list attributes are not mapped:
+supported-maximum-information-rate-list +
+available-queue-list +
+supported-fec-interleaver-depth-list +
+supported-maximum-burst-size-list +
+supported-loop-back-kind-list +
+supported-fec-redundancy-size-list +
+supported-header-compression-kind-list +
+supported-fec-interleaver-kind-list
+
+== Historical-Performances (layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances)
+In some cases the datatype of the response is not the right one. Because of this, there is a string to integer mapping necessary. For this reason, there is an additional row, which signals through a "str -> int" that a mapping is necessary. (last row)
+
+[cols="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"]
+|===
+
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|period-end-time
+|granularity-period
+|history-data-id
+|suspect-interval-flag
+|max-bytes-per-second-output
+|forwarded-frames-output
+|broadcast-frames-input
+|dropped-frames-input
+|total-bytes-output
+|multicast-frames-output
+|errored-frames-input
+|total-frames-output
+|forwarded-frames-input
+|multicast-frames-input
+|fragmented-frames-input
+|unicast-frames-input
+|unicast-frames-output
+|time-period
+|total-frames-input
+|errored-frames-output
+|total-bytes-input
+|broadcast-frames-output
+|dropped-frames-output
+
+|mountname
+|uuid
+|layer-protocol.local-id
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].period-end-time
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].granularity-period
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].history-data-id
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].suspect-interval-flag
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.max-bytes-per-second-output
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.forwarded-frames-output
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.broadcast-frames-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.total-bytes-output
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.multicast-frames-output
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.errored-frames-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.total-frames-output
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.forwarded-frames-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.multicast-frames-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.fragmented-frames-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.unicast-frames-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.unicast-frames-output
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.time-period
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.total-frames-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.total-frames-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.errored-frames-output
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.total-bytes-input
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.broadcast-frames-output
+|layer-protocol.ethernet-container-2-0:ethernet-container-pac.ethernet-container-historical-performances.historical-performance-data-list[*].performance-data.dropped-frames-output
+
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+01:00
+|ethernet-container-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+|History Data ID not defined.
+|false
+|-1
+|-1
+|0
+|0
+|-1
+|-1
+|0
+|-1
+|-1
+|0
+|0
+|-1
+|-1
+|86400
+|0
+|-1
+|0
+|-1
+|-1
+
+|
+|
+|
+|
+|
+|
+|
+|
+|str -> int
+|
+|
+|str -> int
+|
+|
+|str -> int
+|str -> int
+|
+|
+|str -> int
+|str -> int
+|
+|str -> int
+|
+|str -> int
+|
+|
+
+|===
+
+
+=== Following list attributes are not mapped:
+queue-utilization-list (ToDO????)
+

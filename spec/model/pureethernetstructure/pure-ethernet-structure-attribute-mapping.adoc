@@ -1,0 +1,128 @@
+= Air-Interface Attribute Mapping
+
+Following table represent the files for air-interface data. "mount-name" is a input parameter or the so called "deviceId" from the sequenz diagram.
+The table entry "update-time" represents the time when the whole data collection is started.
+
+To make the attribute mapping more readable the prefix "core-model-1-4:logical-termination-point" is not present. Examples:
+"core-model-1-4:logical-termination-point.uuid" is represented as "uuid" +
+"core-model-1-4:logical-termination-point.layer-protocol.local-id" is represented as "layer-protocol.local-id" +
+
+
+== Configuration (layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-configuration)
+[cols="1,1,1,1"]
+|===
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|update-time
+|performance-monitoring-is-on
+
+
+|mount-name
+|uuid
+|layer-protocol.local-id
+|update-time
+|.performance-monitoring-is-on
+
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+00:00
+|true
+|===
+
+
+=== Following list attributes are not mapped:
+g-826-threshold-cross-alarm-list
+
+== Capabilities (layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-capability)
+[cols="1,1,1,1"]
+|===
+
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|update-time
+|performance-monitoring-is-avail
+
+
+|mount-name
+|uuid
+|layer-protocol.local-id
+|update-time
+|performance-monitoring-is-avail
+
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+00:00
+|true
+|===
+
+=== Following list attributes are not mapped:
+
+
+== Historical-Performances (layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances)
+
+
+[cols="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"]
+|===
+
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|period-end-time
+|granularity-period
+|suspect-interval-flag
+|history-data-id
+|rx-level-max
+|rx-level-avg
+|rx-level-min
+|unavailability
+|ses
+|cses
+|es
+|time-period
+
+|mount-name
+|uuid
+|layer-protocol.local-id
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].period-end-time
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].granularity-period
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].suspect-interval-flag
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].history-data-id
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].performance-data.rx-level-max
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].performance-data.rx-level-avg
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].performance-data.rx-level-min
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].performance-data.unavailability
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].performance-data.ses
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].performance-data.cses
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].performance-data.es
+|layer-protocol.pure-ethernet-structure-2-0:pure-ethernet-structure-pac.pure-ethernet-structure-historical-performances.historical-performance-data-list[*].time-period
+
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+01:00
+|pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+|false
+|History Data ID not defined.
+|-36
+|-36
+|-36
+|-1
+|-1
+|-1
+|-1
+|900
+
+
+|===
+
+
+=== Following list attributes are not mapped:
+
+

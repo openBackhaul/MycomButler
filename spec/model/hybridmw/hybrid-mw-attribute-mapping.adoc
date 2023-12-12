@@ -1,0 +1,140 @@
+= Hybrid-MW-Structure Attribute Mapping
+
+Following table represent the files for air-interface data. "mount-name" is a input parameter or the so called "deviceId" from the sequenz diagram.
+The table entry "update-time" represents the time when the whole data collection is started.
+
+To make the attribute mapping more readable the prefix "core-model-1-4:logical-termination-point" is not present.
+Examples:
+"core-model-1-4:logical-termination-point.uuid" is represented as "uuid" +
+"core-model-1-4:logical-termination-point.layer-protocol.local-id" is represented as "layer-protocol.local-id" +
+
+== Configuration (layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-configuration)
+
+[cols="1,1,1,1,1,1,1,1"]
+|===
+
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|update-time
+|tdm-structure-kind
+|performance-monitoring-is-on
+|number-of-tdm-segments-to-be-reserved
+|clearing-threshold-cross-alarms-is-on
+
+
+|mount-name
+|uuid
+|layer-protocol.local-id
+|update-time
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-configuration.tdm-structure-kind
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-configuration.performance-monitoring-is-on
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-configuration.number-of-tdm-segments-to-be-reserved
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-configuration.clearing-threshold-cross-alarms-is-on
+
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+00:00
+|e1
+|true
+|0
+|false
+
+|===
+
+=== Following list attributes are not mapped:
+
+g-826-threshold-cross-alarm-list
+
+== Capabilities (layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-capability)
+
+[cols="1,1,1,1,1"]
+|===
+
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|update-time
+|performance-monitoring-is-avail
+
+
+|mount-name
+|uuid
+|layer-protocol.local-id
+|update-time
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-capability.performance-monitoring-is-avail
+
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+00:00
+|true
+
+|===
+
+=== Following list attributes are not mapped:
+
+supported-tdm-structure-kind-list (ToDo)
+
+== Historical-Performances (layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances)
+
+Each list element in "layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list" represent a row in the table.
+
+[cols="1,1,1,1,1"]
+|===
+|mount-name
+|logical-termination-point-uuid
+|layer-protocol-local-id
+|period-end-time
+|granularity-period
+|suspect-interval-flag
+|history-data-id
+|time-period
+|es
+|unavailability
+|ses
+|rx-level-max
+|rx-level-min
+|rx-level-avg
+|cses
+
+|mount-name
+|uuid
+|layer-protocol.local-id
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].period-end-time
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].granularity-period
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].suspect-interval-flag
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].history-data-id
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].performance-data.time-period
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].performance-data.es
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].performance-data.unavailability
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].performance-data.ses
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].performance-data.rx-level-max
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].performance-data.rx-level-min
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].performance-data.rx-level-avg
+|layer-protocol.hybrid-mw-structure-2-0:hybrid-mw-structure-pac.hybrid-mw-structure-historical-performances.historical-performance-data-list[*].performance-data.cses
+
+|513250009
+|LTP-MWS-RADIO-1A
+|LP-MWS-RADIO-1A
+|2023-11-15T02:30:00+01:00
+|hybrid-mw-2-0:GRANULARITY_PERIOD_TYPE_PERIOD-15-MIN
+|false
+|History Data ID not defined.
+|900
+|-1
+|-1
+|-1
+|-36
+|-36
+|-36
+|-1
+
+|===
+
+=== Following list attributes are not mapped:
+
+
