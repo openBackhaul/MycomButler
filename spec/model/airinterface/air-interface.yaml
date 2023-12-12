@@ -70,7 +70,7 @@ components: #ToDo compare again with UML
           example: -1
         receiver-is-on:
           type: boolean
-          example: true,
+          example: true
         encryption-is-on:
           type: boolean
           example: false
@@ -79,7 +79,7 @@ components: #ToDo compare again with UML
           properties:
             alphanumeric-radio-signal-id:
               type: string
-              example: 1234A,
+              example: 1234A
             numeric-radio-signal-id:
               type: integer
               example: -1
@@ -138,7 +138,7 @@ components: #ToDo compare again with UML
           example: -1
         loop-back-kind-on:
           type: string
-          example: "air-interface-2-0:LOOP_BACK_TYPE_NONE", #ToDo mapping?
+          example: "air-interface-2-0:LOOP_BACK_TYPE_NONE" #ToDo mapping?
         rx-frequency:
           type: integer
           example: -1
@@ -148,10 +148,10 @@ components: #ToDo compare again with UML
         tx-power:
           type: integer
           example: 18
-        expected-radio-signal-id":
+        expected-radio-signal-id:
           type: object
           properties:
-            alphanumeric-radio-signal-id":
+            alphanumeric-radio-signal-id:
               type: string
               example: 1234B
             numeric-radio-signal-id:
@@ -171,7 +171,7 @@ components: #ToDo compare again with UML
           example: false
         clearing-threshold-cross-alarms-is-avail:
           type: boolean
-          example: false,
+          example: false
         duplex-distance-is-freely-configurable:
           type: boolean
           example: false
@@ -194,7 +194,7 @@ components: #ToDo compare again with UML
             properties:
               transmission-mode-name:
                 type: string
-                example: "782.1.1.10.10"
+                example: 782.1.1.10.10
               symbol-rate-reduction-factor:
                 type: integer
                 example: 1
@@ -267,23 +267,25 @@ components: #ToDo compare again with UML
             example: air-interface-2-0:LOOP_BACK_TYPE_NONE
         adaptive-modulation-is-avail:
           type: boolean
-          exmample: true
+          example: true
         tx-frequency-min:
           type: integer
           example: 81000000
         expected-equals-transmitted-radio-signal-id:
           type: boolean
-          example: false,
+          example: false
         supported-radio-signal-id-datatype:
           type: string
           example: air-interface-2-0:RADIO_SIGNAL_ID_DATATYPE_TYPE_STRING
-        encryption-is-avail": false
+        encryption-is-avail:
+          type: boolean
+          example: false
     AirInterfaceHistoricalPerformances:
       type: object
       properties:
         time-of-latest-change:
           type: string
-          example: 2023-11-15T13:00:00+01:00,
+          example: 2023-11-15T13:00:00+01:00
         number-of-historical-performance-sets:
           type: integer
           example: 126
@@ -315,10 +317,10 @@ components: #ToDo compare again with UML
                     example: -30
                   xpd-max:
                     type: integer
-                    example: -99,
+                    example: -99
                   rf-temp-max:
                     type: integer
-                    example: -99,
+                    example: -99
                   tx-level-max:
                     type: integer
                     example: 9
@@ -356,7 +358,49 @@ components: #ToDo compare again with UML
                           example: 782.1.1.8.27 #ToDO Mapping from capailities
                         time-xstate-sequence-number:
                           type: integer
-                          example: 26,
+                          example: 26
+                        transmission-mode-name:
+                          type: string
+                          example: 28006
+                        symbol-rate-reduction-factor:
+                          type: integer
+                          example: 1
+                        channel-bandwidth:
+                          type: integer
+                          example: 28000
+                        xpic-is-avail:
+                          type: boolean
+                          example: true
+                        supported-as-fixed-configuration:
+                          type: boolean
+                          example: true
+                        tx-power-min:
+                          type: integer
+                          example: 4
+                        am-downshift-level:
+                          type: integer
+                          example: -69
+                        modulation-scheme:
+                          type: integer
+                          example: 64
+                        code-rate:
+                          type: integer
+                          example: 90
+                        am-upshift-level:
+                          type: integer
+                          example: -67
+                        rx-threshold:
+                          type: integer
+                          example: -73
+                        modulation-scheme-name-at-lct:
+                          type: string
+                          example: 64QAM
+                        transmission-mode-rank:
+                          type: integer
+                          example: 28006
+                        tx-power-max:
+                          type: integer
+                          example: 24
                   rx-level-min:
                     type: integer
                     example: -30
@@ -365,7 +409,7 @@ components: #ToDo compare again with UML
                     example: 99
                   xpd-min:
                     type: integer
-                    example: -99,
+                    example: -99
                   xpd-avg:
                     type: integer
                     example: -99
@@ -384,61 +428,3 @@ components: #ToDo compare again with UML
                   defect-blocks-sum:
                     type: integer
                     example: -1
-
-
-
-        time-xstates-list:
-          type: array
-          items:
-            $ref: '#/components/schemas/TransMissonMode'
-    TransMissonMode: #Todo delete or make common object with capability
-      type: object
-      properties:
-        time-xstate-sequence-number:
-          type: integer
-          example: 1
-        time:
-          type: integer
-          example: 0
-        transmission-mode-name:
-          type: string
-          example: 28006
-        symbol-rate-reduction-factor:
-          type: integer
-          example: 1
-        channel-bandwidth:
-          type: integer
-          example: 28000
-        xpic-is-avail:
-          type: boolean
-          example: true
-        supported-as-fixed-configuration:
-          type: boolean
-          example: true
-        tx-power-min:
-          type: integer
-          example: 4
-        am-downshift-level:
-          type: integer
-          example: -69
-        modulation-scheme:
-          type: integer
-          example: 64
-        code-rate:
-          type: integer
-          example: 90
-        am-upshift-level:
-          type: integer
-          example: -67
-        rx-threshold:
-          type: integer
-          example: -73,
-        modulation-scheme-name-at-lct:
-          type: string
-          example: 64QAM
-        transmission-mode-rank:
-          type: integer
-          example: 28006
-        tx-power-max:
-          type: integer
-          example: 24

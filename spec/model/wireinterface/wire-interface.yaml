@@ -84,7 +84,7 @@ components: #ToDo compare again with UML and YANG File
           example: false
         performance-monitoring-is-on:
           type: boolean
-          example: false,
+          example: false
         fixed-signal-ordering-kind:
           type: string
           example: wire-interface-2-0:SIGNAL_ORDERING_KIND_TYPE_NOT_YET_DEFINED
@@ -107,7 +107,7 @@ components: #ToDo compare again with UML and YANG File
           example: false
         eee-is-avail:
           type: boolean
-          example: false,
+          example: false
         wavelength-grid-min:
           type: integer
           example: -1
@@ -190,7 +190,7 @@ components: #ToDo compare again with UML and YANG File
       properties:
         time-of-latest-change:
           type: string
-          example: 2023-11-15T13:00:00+01:00,
+          example: 2023-11-15T13:00:00+01:00
         number-of-historical-performance-sets:
           type: integer
           example: 126
@@ -219,13 +219,13 @@ components: #ToDo compare again with UML and YANG File
                     example: -1
                   ses:
                     type: integer
-                    example: -1,
+                    example: -1
                   low-power-idle-receiver-ms:
                     type: integer
-                    example: -1,
+                    example: -1
                   rx-collisions:
                     type: integer
-                    example: -1,
+                    example: -1
                   low-power-idle-transmitter-ms:
                     type: integer
                     example: -1

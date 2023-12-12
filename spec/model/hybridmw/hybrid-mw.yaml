@@ -75,7 +75,7 @@ components: #ToDo compare again with UML
       properties:
         time-of-latest-change:
           type: string
-          example: 2023-11-15T13:00:00+01:00,
+          example: 2023-11-15T13:00:00+01:00
         number-of-historical-performance-sets:
           type: integer
           example: 126

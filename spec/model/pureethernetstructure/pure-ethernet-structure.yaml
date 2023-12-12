@@ -31,7 +31,7 @@ components: #ToDo compare again with UML and YANG File
             properties:
               g-826-value-kind:
                 type: string
-                example: pure-ethernet-structure-2-0:G_826_TYPE_NOT_SPECIFIED",
+                example: "pure-ethernet-structure-2-0:G_826_TYPE_NOT_SPECIFIED"
               granularity-period:
                 type: string
                 example: pure-ethernet-structure-2-0:GRANULARITY_PERIOD_TYPE_NOT_YET_DEFINED
@@ -52,7 +52,7 @@ components: #ToDo compare again with UML and YANG File
       properties:
         time-of-latest-change:
           type: string
-          example: 2023-11-15T13:00:00+01:00,
+          example: 2023-11-15T13:00:00+01:00
         number-of-historical-performance-sets:
           type: integer
           example: 126
@@ -87,7 +87,7 @@ components: #ToDo compare again with UML and YANG File
                     example: -36
                   unavailability:
                     type: integer
-                    example: -1,
+                    example: -1
                   ses:
                     type: integer
                     example: -1

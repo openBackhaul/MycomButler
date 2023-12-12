@@ -30,7 +30,7 @@ components: #ToDo compare again with UML
         cryptographic-key:
           type: string
           example: Cryptographic key not yet defined.
-        header-compression-kind":
+        header-compression-kind:
           type: string
           example: no-compression
         statistics-is-on:
@@ -41,7 +41,7 @@ components: #ToDo compare again with UML
           example: false
         maintenance-timer:
           type: integer
-          example: 900,
+          example: 900
         fec-word-size:
           type: integer
           example: -1
@@ -56,7 +56,7 @@ components: #ToDo compare again with UML
           example: ethernet-container-2-0:FEC_INTERLEAVER_DEPTH_TYPE_NOT_YET_DEFINED
         ingress-policing-profile:
           type: string
-          example: "",
+          example: ""
         scheduler-profile:
           type: string
           example: SCHEDULER-PROFILE-1
@@ -249,7 +249,7 @@ components: #ToDo compare again with UML
       properties:
         time-of-latest-change:
           type: string
-          example: 2023-11-15T13:00:00+01:00,
+          example: 2023-11-15T13:00:00+01:00
         number-of-historical-performance-sets:
           type: integer
           example: 126
@@ -275,7 +275,7 @@ components: #ToDo compare again with UML
                 properties:
                   max-bytes-per-second-output:
                     type: integer
-                    example: -1,
+                    example: -1
                   forwarded-frames-output: #ToDo String -> Int mapping
                     type: integer
                     example: -1
@@ -302,13 +302,13 @@ components: #ToDo compare again with UML
                     example: -1
                   multicast-frames-input:
                     type: integer
-                    example: 0,
+                    example: 0
                   fragmented-frames-input:
                     type: integer
                     example: 0
                   unicast-frames-input: #ToDo String -> Int mapping
                     type: integer
-                    example: -1,
+                    example: -1
                   unicast-frames-output: #ToDo String -> Int mapping
                     type: integer
                     example: -1
@@ -321,7 +321,7 @@ components: #ToDo compare again with UML
                   errored-frames-output: #ToDo String -> Int mapping
                     type: integer
                     example: -1
-                  total-bytes-input": #ToDo String -> Int mapping
+                  total-bytes-input: #ToDo String -> Int mapping
                     type: integer
                     example: 0
                   broadcast-frames-output:
