@@ -6,20 +6,36 @@ participant MWDI
 database Elastic
 database FileStorage
 
-loop every 2 hours
-    activate MycomButler
-    MycomButler -> Elastic: Request DeviceUpdateList
-    Elastic -> MycomButler: Response DeviceUpdateList(deviceId, lastUpdate)
-    MycomButler -> MWDI: Request: POST /v1/provide-list-of-connected-devices
-    MWDI -> MycomButler: Response: List<device>
-    MycomButler -> MycomButler: compare List<device> with DeviceUpdateList and use deviceIdswhere lastUpdate > 6 hours or not in DeviceUpdateList
-        loop for each deviceId in filtered List
-            MycomButler -> MWDI: Request:GET /core-model-1-4:network-control-domain=cache/control-construct={mount-name}
-            MWDI -> MycomButler: Response: DeviceData
-            MycomButler -> MycomButler: filter historical pm data newer lastUpdate
-            MycomButler -> FileStorage: write to file
-        end
-deactivate MycomButler
-end
 
+activate MycomButler
+MycomButler -> Elastic: Request DeviceUpdateList
+MycomButler -> MycomButler: create: update-time
+Elastic --> MycomButler: Response DeviceUpdateList(mount-name, last-update-time)
+MycomButler -> MWDI: Request: POST /v1/provide-list-of-connected-devices
+MWDI --> MycomButler: Response: List<deviceIds>
+MycomButler -> MycomButler: compare List<deviceIds> with DeviceUpdateList and use deviceIds where last-update-time > 6 hours or not in DeviceUpdateList
+    loop for each deviceId in filtered List
+        MycomButler -> MWDI: Request: POST /v1/provide-list-of-device-interfaces
+        MWDI --> MycomButler: Response: logical-termination-point-list(uuid, localId, layer-protocol-name)
+        loop for each layer-protocol-name [air-interface-2-0, wire-interface-2-0, hybrid-mw-structure-2-0, pure-ethernet-structure-2-0, ethernet-container-2-0]
+            alt layer-protocol-name equals air-interface-2-0
+                MycomButler -> MWDI: Request:GET /core-model-1-4:network-control-domain=cache/control-construct={deviceId}/logical-termination-point={uuid}?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;air-interface-2-0:air-interface-pac)
+                MWDI --> MycomButler: Response: Logical-Termination-Point Air-Interface
+            else layer-protocol-name equals layer-protocol-name wire-interface-2-0
+                            MycomButler -> MWDI: Request:GET /core-model-1-4:network-control-domain=cache/control-construct={deviceId}/logical-termination-point={uuid}?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;wire-interface-2-0:wire-interface-pac)
+                            MWDI --> MycomButler: Response: Logical-Termination-Point Wire-Interface
+            else layer-protocol-name equals layer-protocol-name hybrid-mw-structure-2-0
+                MycomButler -> MWDI: Request:GET /core-model-1-4:network-control-domain=cache/control-construct={deviceId}/logical-termination-point={uuid}?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;hybrid-mw-structure-2-0:hybrid-mw-structure-pac)
+                MWDI --> MycomButler: Response: Logical-Termination-Point Hybrid-MW-Structure
+            else layer-protocol-name equals layer-protocol-name pure-ethernet-structure-2-0
+                MycomButler -> MWDI: Request:GET /core-model-1-4:network-control-domain=cache/control-construct={deviceId}/logical-termination-point={uuid}?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(pure-ethernet-structure-2-0:pure-ethernet-structure-pac)
+                MWDI --> MycomButler: Response: Logical-Termination-Point Pure-Ethernet-Structure
+            else layer-protocol-name equals layer-protocol-name ethernet-container-2-0
+                MycomButler -> MWDI: Request:GET /core-model-1-4:network-control-domain=cache/control-construct={deviceId}/logical-termination-point={uuid}?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;ethernet-container-2-0:ethernet-container-pac)
+                MWDI --> MycomButler: Response: Logical-Termination-Point Ethernet-Container
+         end
+        MycomButler -> MycomButler: filter historical pm data newer last-update-time
+        MycomButler -> FileStorage: write to different temp files for (capabilities/configuration/historical-performance-data depending on layer-protocol)
+        MycomButler -> Elastic: update device (mount-name) last-update-time
+    end
 @enduml
