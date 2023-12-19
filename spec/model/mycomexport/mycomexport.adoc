@@ -1,0 +1,86 @@
+:sectnums:
+== MyCom Data Export
+
+=== Sequenz Diagramm
+
+=== Recieving Data for MyCom Export
+==== Recieving all connected devices
+
+.Recieve all connected devices
+[source, httprequest]
+----
+POST /v1/provide-list-of-connected-devices
+----
+
+.MWDI example of connected devices
+[%collapsible]
+====
+[source, json]
+----
+include::device-list.json[]
+----
+====
+
+==== Recieving device data
+
+.Recieve device data - control construct
+[source, httprequest]
+----
+GET /core-model-1-4:network-control-domain=cache/control-construct={mountName}
+----
+
+.MWDI example for device data - control construct
+[%collapsible]
+====
+[source, json]
+----
+//include::control-construct.json[]
+----
+====
+
+=== MyCom export data structure
+
+[cols="1,1,1,1,1,1,1,1"]
+|===
+|MOUNT_NAME
+|LINK_ID
+|UNIT_ID
+|ZEITSTEMPEL
+|Configuration_Data1
+|Configuration_Data2..
+|Historical_Performance_Data1
+|Historical_Performance_Data2..
+
+|deviceID
+|logical-termination-point.external-label
+|
+|air-interface-historical-performances.historical-performance-data-list[0].period-end-time
+|air-interface-configuration.atpc-thresh-upper
+|air-interface-configuration.tx-frequency
+|air-interface-historical-performances.historical-performance-data-list[0].suspect-interval-flag
+|air-interface-historical-performances.historical-performance-data-list[0].performance-data.ses
+
+
+
+|CO02060
+|101550001
+|101550001A
+|2023-11-15T13:00:00+01:00
+|99
+|81000000
+|false
+|0
+
+
+|513250010
+|101550001
+|101550001B
+|2023-11-15T13:00:00+01:00
+|
+|
+|
+|
+|
+
+
+|===

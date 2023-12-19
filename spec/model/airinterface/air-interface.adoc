@@ -72,5 +72,20 @@ include::air-interface-historical-performances.json[]
 
 
 === Air Interface Data Mapping
+if in array historical-performance-data-list.performance-data.time-xstates-list
+time is = 0 don´t send (remove)
+
+time-xstates-list": [
+ {
+   "time-xstate-sequence-number": 26,
+   "time": 0,
+   "transmission-mode": "782.1.1.8.27"
+ },
+ {
+   "time-xstate-sequence-number": 27,
+   "time": 0,
+   "transmission-mode": "782.1.1.8.28"
+ },
+
 
 ==== Air Interface Response from MycomButler

@@ -1,0 +1,13 @@
+== Elastic database for updates
+"mount-name" is equal to an deviceId returned by POST "/v1/provide-list-of-connected-devices" + from the MWDI.
+"last-update-time" is equal to the time, the last update was successfull. (needs to be updated after each successfull data collection)
+[cols="1,1,1"]
+|===
+|mount-name
+|vendor
+|last-update-time
+
+|513250009
+|Huawei
+|2023-11-15T02:30:00+00:00
+|===

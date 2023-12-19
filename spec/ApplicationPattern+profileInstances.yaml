@@ -175,3 +175,10 @@ profile-instances:
       string-value: ## TODO: Add current value of the attribute
 
   ## TODO: Potentially add further instances of StringProfile
+
+#ToDo
+ #?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;air-interface-2-0:air-interface-pac)
+ #?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;ethernet-container:ethernet-container-pac)
+ #?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;hybrid-mw-structure-2-0:hybrid-mw-structure-pac)
+ #?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;pure-ethernet-structure-2-0:pure-ethernet-structure-pac)
+ #?fields=uuid;ltp-augment-1-0:ltp-augment-pac(external-label);layer-protocol(local-id;layer-protocol-name;wire-interface-2-0:wire-interface-pac)

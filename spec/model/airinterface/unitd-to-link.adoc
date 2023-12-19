@@ -1,0 +1,24 @@
+Renaming in data models?
+
+== Testlab
+[cols="1,1,1"]
+|===
+|unitID
+|linkID
+|Mountname
+
+
+|101550001A
+|101550001
+|513250010
+
+
+|101550001B
+|101550001
+|513250009
+
+|101550001B
+|core-model-1-4:logical-termination-point.ltp-augment-1-0:ltp-augment-pac.external-label
+|mount-name
+
+|===

@@ -42,19 +42,8 @@ servers:
         - operation-name: /docs
           uuid: mb-1-0-0-op-s-bs-005
       individual:
-        - operation-name: /v1/provide-historical-pm-data-of-device/{mountName}
+        - operation-name: /v1/provide-historical-pm-data-of-device
           uuid: mb-1-0-0-op-s-is-000
-        - operation-name: /v1/provide-historical-pm-data-of-device/{mountName}/air-interface/{logicalTerminationPoint}/{layerProtocol}
-          uuid: mb-1-0-0-op-s-is-001
-        - operation-name: /v1/provide-historical-pm-data-of-device/{mountName}/ethernet-container/{logicalTerminationPoint}/{layerProtocol}
-          uuid: mb-1-0-0-op-s-is-002
-        - operation-name: /v1/provide-historical-pm-data-of-device/{mountName}/hybrid-mw-structure/{logicalTerminationPoint}/{layerProtocol}
-          uuid: mb-1-0-0-op-s-is-003
-        - operation-name: /v1/provide-historical-pm-data-of-device/{mountName}/wire-interface/{logicalTerminationPoint}/{layerProtocol}
-          uuid: mb-1-0-0-op-s-is-004
-        - operation-name: /v1/provide-historical-pm-data-of-device/{mountName}/pure-ethernet-structure/{logicalTerminationPoint}/{layerProtocol}
-          uuid: mb-1-0-0-op-s-is-005
-
   http-server:
     own-application-name: MycomButler
     own-release-number: 1.0.0
@@ -284,35 +273,7 @@ clients:
         individual: #ToDO MWDI Operations basic or individual?, atm no support for interface, 3 calls are needed at mwdi
           - operation-name: /v1/provide-list-of-connected-devices
             uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-000
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}
+          - operation-name: /v1/provide-list-of-device-interfaces
             uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-001
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/air-interface-2-0:air-interface-pac/air-interface-capability
+          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}
             uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-002
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/air-interface-2-0:air-interface-pac/air-interface-configuration
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-003
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/air-interface-2-0:air-interface-pac/air-interface-historical-performances
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-004
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/ethernet-container-2-0:ethernet-container-pac/ethernet-container-capability
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-005
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/ethernet-container-2-0:ethernet-container-pac/ethernet-container-configuration
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-006
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/ethernet-container-2-0:ethernet-container-pac/ethernet-container-historical-performances
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-007
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/wire-interface-2-0:wire-interface-pac/wire-interface-capability
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-008
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/wire-interface-2-0:wire-interface-pac/wire-interface-configuration
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-009
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/wire-interface-2-0:wire-interface-pac/wire-interface-historical-performances
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-010
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/hybrid-mw-structure-2-0:hybrid-mw-structure-pac/hybrid-mw-structure-capability
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-011
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/hybrid-mw-structure-2-0:hybrid-mw-structure-pac/hybrid-mw-structure-configuration
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-012
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/hybrid-mw-structure-2-0:hybrid-mw-structure-pac/hybrid-mw-structure-historical-performances
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-013
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/pure-ethernet-structure-2-0:pure-ethernet-structure-pac/pure-ethernet-structure-capability
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-014
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/pure-ethernet-structure-2-0:pure-ethernet-structure-pac/pure-ethernet-structure-configuration
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-015
-          - operation-name: /core-model-1-4:network-control-domain=cache/control-construct={mountName}/logical-termination-point={uuid}/layer-protocol={localId}/pure-ethernet-structure-2-0:pure-ethernet-structure-pac/pure-ethernet-structure-configuration
-            uuid: mb-1-0-0-op-c-is-mwdi-1-0-1-016

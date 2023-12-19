@@ -9,6 +9,16 @@ To make the attribute mapping more readable the prefix "core-model-1-4:logical-t
 
 
 == Configuration (layer-protocol.air-interface-2-0:air-interface-pac.air-interface-configuration)
+
+====
+Content of following Files
+
+.FileProfiles
+- '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-config$'
+- '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-config-temp$'
+====
+
+
 [cols="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"]
 |===
 |mount-name
@@ -127,9 +137,11 @@ xlts-threshold-cross-alarm-list +
 acm-threshold-cross-alarm-list
 
 == Capabilities (layer-protocol.air-interface-2-0:air-interface-pac.air-interface-capability)
+
+
+
 [cols="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"]
 |===
-
 |mount-name
 |logical-termination-point-uuid
 |layer-protocol-local-id
@@ -212,6 +224,14 @@ duplex-distance-list +
 supported-loop-back-kind-list
 
 == Historical-Performances (layer-protocol.air-interface-2-0:air-interface-pac.air-interface-historical-performances)
+
+====
+Content of following Files
+
+.FileProfiles
+- ^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-hpd$'
+- '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-hpd-temp$'
+====
 
 
 [cols="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"]
@@ -307,6 +327,16 @@ supported-loop-back-kind-list
 
 
 === Modulation Scheme (layer-protocol.air-interface-2-0:air-interface-pac.air-interface-historical-performances + layer-protocol.air-interface-2-0:air-interface-pac.air-interface-capability )
+
+
+====
+Content of following Files
+
+.FileProfiles
+- '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-modulation-scheme$'
+- '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-modulation-scheme-temp$'
+====
+
 To get the Modulation Scheme there is a mapping from performance data to the capabilities necessary. To identify the right capability the following the attributes have the same value: +
 
 "layer-protocol.air-interface-2-0:air-interface-pac.air-interface-historical-performances.historical-performance-data-list.performance-data.time-xstates-list.transmission-mode" +

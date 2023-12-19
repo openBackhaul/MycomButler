@@ -24,8 +24,9 @@ profiles:
       static-value: string
       value-reference: string
 
+  #Air-Interface historical performance data
   - profile-name: 'FileProfile'
-    uuid: '^[a-z]{2,6}-([0-9]+)-([0-9]+)-([0-9]+)-file-p-[0-9]{3}$'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-hpd-temp$'
     capability:
       file-identifier: string
       file-description: string
@@ -34,6 +35,255 @@ profiles:
       user-name: string
       password: string
       operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-hpd$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+  #Air-Interface config
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-config$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-config-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  #Air-Interface Modulation Scheme
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-modulation-scheme-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-modulation-scheme$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-air-interface-config$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+  #Ethernet-Container historical performance data
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-ethernet-container-hpd-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-ethernet-container-hpd$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+  #Ethernet-Container config
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-ethernet-container-config-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-ethernet-container-config$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  #Hybrid-MW historical performance data
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-hybrid-mw-hpd-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-hybrid-mw-hpd$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+  #Hybrid-MW config
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-hybrid-mw-config-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-hybrid-mw-config$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  #Pure-ethernet-structure historical performance data
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-pure-ethernet-structure-hpd-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-pure-ethernet-structure-hpd$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+  #Pure-ethernet-structure config
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-pure-ethernet-structure-config-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-pure-ethernet-structure-config$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+
+
+  #Wire-interface historical performance data
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-wire-interface-hpd-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-wire-interface-hpd$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+  #Wire-interface config
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-wire-interface-config-temp$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+  - profile-name: 'FileProfile'
+    uuid: '^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{4}-wire-interface-config$'
+    capability:
+      file-identifier: string
+      file-description: string
+    configuration:
+      file-path: string
+      user-name: string
+      password: string
+      operation: string
+
+
 
   - profile-name: 'IntegerProfile'
     uuid: '^[a-z]{2,6}-([0-9]+)-([0-9]+)-([0-9]+)-integer-p-[0-9]{3}$'
