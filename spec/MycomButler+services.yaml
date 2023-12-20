@@ -25,6 +25,14 @@ servers:
           uuid: mb-1-0-0-op-s-bm-010
         - operation-name: /v1/update-operation-client
           uuid: mb-1-0-0-op-s-bm-011
+        - operation-name: /v1/inquire-basic-auth-approvals
+          uuid: mb-1-0-0-op-s-bm-012
+        - operation-name: /v1/dispose-remainders-of-deregistered-application
+          uuid: mb-1-0-0-op-s-bm-013
+        - operation-name: /v1/inform-about-preceding-release
+          uuid: mb-1-0-0-op-s-bm-014
+        - operation-name: /v1/update-client-of-subsequent-release
+          uuid: mb-1-0-0-op-s-bm-015
       individual:
         - operation-name: /v1/bequeath-your-data-and-die
           uuid: mb-1-0-0-op-s-im-000
@@ -42,6 +50,7 @@ servers:
           uuid: mb-1-0-0-op-s-bs-004
         - operation-name: /docs
           uuid: mb-1-0-0-op-s-bs-005
+      individual:
       individual:
         - operation-name: /v1/provide-historical-pm-data-of-device
           uuid: mb-1-0-0-op-s-is-000
@@ -70,7 +79,7 @@ clients:
       uuid: mb-1-0-0-tcp-c-es-1-0-0-000
     elasticsearch-client:
       uuid: mb-1-0-0-es-c-es-1-0-0-000
-      index-alias: 9 #ToDo Thorsten Nachfragen, Sequenz Diagram to save data or without data
+      index-alias: 9
 
   - http-client:
       application-name: OldRelease
